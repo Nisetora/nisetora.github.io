@@ -1,7 +1,5 @@
-/* ── Dynamic NPC / field overlay layer ─────────────────────────────────────── */
-@import url("npc.css");
-
 @charset "UTF-8";
+@import url("npc.css");
 /*
   Freewar Welt 4 — Nisetora Style
   Base: Cold Moonfire / varlight (Baum) — vendored and modified in-place
@@ -432,4 +430,4 @@ img[src$="fadenkreuz.gif"] { filter: invert(0); }
 
 a[href="?finish=1"] { font-size: 12px; }
 
-
+/* (npc.css imported at top of file — @import must precede all rules) */
