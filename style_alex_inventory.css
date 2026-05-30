@@ -1,0 +1,85 @@
+/* ════════════════════════════════════════════════════════════════════════════
+   §9. Upper inventory display enhancements
+   Source: varlight_alex — the block unique to Alex's CSS (lines 1–46),
+   absent from the varlight_baseline.
+
+   HOW TO USE:
+     Option A: append the contents of this file to the end of your style.css
+     Option B: add  @import url("style_alex_inventory.css");  at the top of style.css
+
+   Adaptation notes:
+   - Dropped `.listrow { background-color: #3d3d3d }` (alex is dark-themed;
+     your light theme already sets the correct #ECE9E6 background).
+   - All structural / layout rules kept verbatim.
+   ════════════════════════════════════════════════════════════════════════════ */
+
+/* Truncate long stat rows so overlay labels don't collide */
+.frameitembg p.listrow[id^="listrow_"]:not(#listrow_status) { white-space: nowrap; overflow: hidden; max-width: 260px; }
+
+/* Compact row padding */
+.listrow { padding: 1px; }
+
+/* Attack-value row: push .valueincreased far right so the weapon overlay sits on top */
+#listrow_attackp .valueincreased { padding-right: 1000px; }
+
+/* Weapon rows: float absolute to the right, collapse default text */
+#listrow_attackw, #listrow_defensew {
+    right: 10px; font-size: 0px; font-weight: bold;
+    background-color: transparent; margin-top: -17px;
+    max-width: 200px; position: absolute;
+}
+
+/* Hide raw bold labels — replaced with :before pseudo-labels below */
+#listrow_lifep > b, #listrow_int > b, #listrow_attackp > b,
+#listrow_defensep > b, #listrow_ring > b { display: none; }
+
+/* Attack weapon link: shrink link text, inject "A-Waffe" label */
+#listrow_attackw a          { font-size: 0; }
+#listrow_attackw a:before   { content: "A-Waffe"; font-size: 11px; margin-right: 5px; }
+#listrow_attackp:before     { content: "A: "; font-weight: bold; padding-left: 0px; }
+
+/* Defence weapon link: same treatment */
+#listrow_defensew a         { font-size: 0; }
+#listrow_defensew a:before  { content: "V-Waffe"; font-size: 11px; margin-right: 5px; }
+#listrow_defensep:before    { content: "V: "; font-weight: bold; padding-left: 0px; }
+
+/* Right-side margin for weapon/ring :after content */
+#listrow_defensew:after, #listrow_attackw:after, #listrow_ring:after { margin-right: 5px; }
+
+/* Ring row label */
+#listrow_ring:before { content: "F: "; font-weight: bold; padding-left: 0px; }
+
+/* Intelligence / Speed row: collapse to zero width, show via absolute span */
+#listrow_int {
+    background-color: transparent; max-width: 0px !important;
+    visibility: hidden; text-align: right !important; margin-top: -19px;
+}
+#listrow_int:before        { content: "Int: "; font-weight: bold; padding-left: 10px; }
+#listrow_int span          { position: absolute; right: 11px; visibility: visible; }
+#listrow_int span:after    { color: #309000; font-weight: bold; content: " Speed"; }
+
+/* Gold row: pull up beside LP row */
+#listrow_money { margin-top: -36px; margin-bottom: 17px; }
+
+/* LP row: add label, push down to clear the gold row overlap */
+#listrow_lifep:before { content: "LP: "; font-weight: bold; }
+#listrow_lifep        { margin-top: 17px !important; }
+
+/* Char/mission row: collapse to right-side absolute strip */
+#listrow_char_mission {
+    font-size: 12px; margin-top: -17px;
+    position: absolute; right: 10px;
+}
+#listrow_char_mission a[href*="ability"] {
+    height: 12px; width: 0px; color: transparent;
+    font-size: 0.001% !important; margin-top: 2px !important;
+}
+#listrow_char_mission a[href*="ability"]:before { content: "Charas"; color: #CC3300 !important; font-size: 12px; }
+#listrow_char_mission a:last-of-type,
+#listrow_aka_battlep b:last-of-type:not(:first-of-type) { color: transparent; font-size: 0.001%; }
+#listrow_char_mission a:last-of-type:before { color: #CC3300; content: "Auftrag"; font-size: 12px; padding-right: 5px; }
+
+/* Battle-points row: compact class name + KP label */
+#listrow_aka_battlep b:first-of-type:not(:last-of-type)          { display: inline-block; height: 10px; margin-right: 3px; overflow: hidden; width: 18px; }
+#listrow_aka_battlep b:last-of-type:not(:first-of-type):before   { color: #000000; content: "KP: "; font-size: 10px; font-weight: bold; }
+#listrow_aka_battlep b:first-of-type:not(:last-of-type):after    { content: ":"; font-weight: bold; left: 35px; position: absolute; }
