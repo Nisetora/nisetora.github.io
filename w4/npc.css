@@ -4,12 +4,6 @@
    DO NOT EDIT — overwritten automatically by FWCalc push
    ================================================================ */
 
-/* ── Sichere Orte ──────────────────────────────────────── */
-#mapx93y122 a:after,
-#mapx92y123 a:after,
-#mapx93y124 a:after,
-#mapx91y104 a:after { content: "\ud83d\udee1"; }
-
 /* ── Fixed-spawn NPCs ──────────────────────────────────── */
 /* Frostdämon */
 #mapx106y81 a:after,
@@ -30,7 +24,7 @@
 #mapx108y87 a:after,
 #mapx109y86 a:after,
 #mapx111y86 a:after,
-#mapx111y87 a:after { content: "D\u00e4mon"; }
+#mapx111y87 a:after { content: "FD"; }
 
 /* Fallensteller */
 #mapx198y129 a:after,
@@ -86,12 +80,6 @@
 
 /* Beuteltiger */
 #mapx64y109 a:after { content: "Tiger"; }
-
-/* Sandiger Wirbelwind */
-#mapx51y85 a:after { content: "Sandy"; }
-
-/* Schimmernde Tiefen */
-#mapx87y99 a:after { content: "Schimm."; }
 
 /* ── Salthos-Karte Ziele ───────────────────────────────── */
 #mapx-19993y-20098 a:after { content: "SKarte"; }
