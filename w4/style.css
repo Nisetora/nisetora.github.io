@@ -633,6 +633,450 @@ img[src$="minigame/a6.gif"] { background-image: url(https://nuhp.de/pics/rp6.png
 #listrow_status span[title^='Seelensprung']:before {content: "SS |"; font-weight: bold; font-size: 10px;}
 #listrow_status span[title^='Seelensprung'] a {font-size: 10px !important; padding-left: 1px;}
 
+/* === Spezi-CD labels (§spezi-cd) ===
+   Cooldown shown inline after each directspezilink icon and after the Dreh summary link. */
+#listrow_special a.directspezilink.specialinactive {
+    margin-right: 28px;
+    overflow: visible;
+}
+#listrow_special a.directspezilink.specialinactive::after {
+    position: absolute;
+    left: 17px;
+    top: 2px;
+    white-space: nowrap;
+    font-size: 9px;
+    color: #aaa;
+    font-weight: bold;
+    line-height: 11px;
+    pointer-events: none;
+}
+#listrow_special a[href*='special_id=52'][title*='in 1 Minute']::after{content:'GF 1m';}
+#listrow_special a[href*='special_id=52'][title*='in 2 Minuten']::after{content:'GF 2m';}
+#listrow_special a[href*='special_id=52'][title*='in 3 Minuten']::after{content:'GF 3m';}
+#listrow_special a[href*='special_id=52'][title*='in 4 Minuten']::after{content:'GF 4m';}
+#listrow_special a[href*='special_id=52'][title*='in 5 Minuten']::after{content:'GF 5m';}
+#listrow_special a[href*='special_id=52'][title*='in 6 Minuten']::after{content:'GF 6m';}
+#listrow_special a[href*='special_id=52'][title*='in 7 Minuten']::after{content:'GF 7m';}
+#listrow_special a[href*='special_id=52'][title*='in 8 Minuten']::after{content:'GF 8m';}
+#listrow_special a[href*='special_id=52'][title*='in 9 Minuten']::after{content:'GF 9m';}
+#listrow_special a[href*='special_id=52'][title*='in 10 Minuten']::after{content:'GF 10m';}
+#listrow_special a[href*='special_id=52'][title*='in 11 Minuten']::after{content:'GF 11m';}
+#listrow_special a[href*='special_id=52'][title*='in 12 Minuten']::after{content:'GF 12m';}
+#listrow_special a[href*='special_id=52'][title*='in 13 Minuten']::after{content:'GF 13m';}
+#listrow_special a[href*='special_id=52'][title*='in 14 Minuten']::after{content:'GF 14m';}
+#listrow_special a[href*='special_id=52'][title*='in 15 Minuten']::after{content:'GF 15m';}
+#listrow_special a[href*='special_id=52'][title*='in 16 Minuten']::after{content:'GF 16m';}
+#listrow_special a[href*='special_id=52'][title*='in 17 Minuten']::after{content:'GF 17m';}
+#listrow_special a[href*='special_id=52'][title*='in 18 Minuten']::after{content:'GF 18m';}
+#listrow_special a[href*='special_id=52'][title*='in 19 Minuten']::after{content:'GF 19m';}
+#listrow_special a[href*='special_id=52'][title*='in 20 Minuten']::after{content:'GF 20m';}
+#listrow_special a[href*='special_id=52'][title*='in 21 Minuten']::after{content:'GF 21m';}
+#listrow_special a[href*='special_id=52'][title*='in 22 Minuten']::after{content:'GF 22m';}
+#listrow_special a[href*='special_id=52'][title*='in 23 Minuten']::after{content:'GF 23m';}
+#listrow_special a[href*='special_id=52'][title*='in 24 Minuten']::after{content:'GF 24m';}
+#listrow_special a[href*='special_id=52'][title*='in 25 Minuten']::after{content:'GF 25m';}
+#listrow_special a[href*='special_id=52'][title*='in 26 Minuten']::after{content:'GF 26m';}
+#listrow_special a[href*='special_id=52'][title*='in 27 Minuten']::after{content:'GF 27m';}
+#listrow_special a[href*='special_id=52'][title*='in 28 Minuten']::after{content:'GF 28m';}
+#listrow_special a[href*='special_id=52'][title*='in 29 Minuten']::after{content:'GF 29m';}
+#listrow_special a[href*='special_id=52'][title*='in 30 Minuten']::after{content:'GF 30m';}
+#listrow_special a[href*='special_id=52'][title*='in 31 Minuten']::after{content:'GF 31m';}
+#listrow_special a[href*='special_id=52'][title*='in 32 Minuten']::after{content:'GF 32m';}
+#listrow_special a[href*='special_id=52'][title*='in 33 Minuten']::after{content:'GF 33m';}
+#listrow_special a[href*='special_id=52'][title*='in 34 Minuten']::after{content:'GF 34m';}
+#listrow_special a[href*='special_id=52'][title*='in 35 Minuten']::after{content:'GF 35m';}
+#listrow_special a[href*='special_id=52'][title*='in 36 Minuten']::after{content:'GF 36m';}
+#listrow_special a[href*='special_id=52'][title*='in 37 Minuten']::after{content:'GF 37m';}
+#listrow_special a[href*='special_id=52'][title*='in 38 Minuten']::after{content:'GF 38m';}
+#listrow_special a[href*='special_id=52'][title*='in 39 Minuten']::after{content:'GF 39m';}
+#listrow_special a[href*='special_id=52'][title*='in 40 Minuten']::after{content:'GF 40m';}
+#listrow_special a[href*='special_id=52'][title*='in 41 Minuten']::after{content:'GF 41m';}
+#listrow_special a[href*='special_id=52'][title*='in 42 Minuten']::after{content:'GF 42m';}
+#listrow_special a[href*='special_id=52'][title*='in 43 Minuten']::after{content:'GF 43m';}
+#listrow_special a[href*='special_id=52'][title*='in 44 Minuten']::after{content:'GF 44m';}
+#listrow_special a[href*='special_id=52'][title*='in 45 Minuten']::after{content:'GF 45m';}
+#listrow_special a[href*='special_id=52'][title*='in 46 Minuten']::after{content:'GF 46m';}
+#listrow_special a[href*='special_id=52'][title*='in 47 Minuten']::after{content:'GF 47m';}
+#listrow_special a[href*='special_id=52'][title*='in 48 Minuten']::after{content:'GF 48m';}
+#listrow_special a[href*='special_id=52'][title*='in 49 Minuten']::after{content:'GF 49m';}
+#listrow_special a[href*='special_id=52'][title*='in 50 Minuten']::after{content:'GF 50m';}
+#listrow_special a[href*='special_id=52'][title*='in 51 Minuten']::after{content:'GF 51m';}
+#listrow_special a[href*='special_id=52'][title*='in 52 Minuten']::after{content:'GF 52m';}
+#listrow_special a[href*='special_id=52'][title*='in 53 Minuten']::after{content:'GF 53m';}
+#listrow_special a[href*='special_id=52'][title*='in 54 Minuten']::after{content:'GF 54m';}
+#listrow_special a[href*='special_id=52'][title*='in 55 Minuten']::after{content:'GF 55m';}
+#listrow_special a[href*='special_id=52'][title*='in 56 Minuten']::after{content:'GF 56m';}
+#listrow_special a[href*='special_id=52'][title*='in 57 Minuten']::after{content:'GF 57m';}
+#listrow_special a[href*='special_id=52'][title*='in 58 Minuten']::after{content:'GF 58m';}
+#listrow_special a[href*='special_id=52'][title*='in 59 Minuten']::after{content:'GF 59m';}
+#listrow_special a[href*='special_id=52'][title*='in 60 Minuten']::after{content:'GF 60m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde ']::after{content:'GF 1h';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 1 Minute']::after{content:'GF 1h 1m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 2 Minuten']::after{content:'GF 1h 2m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 3 Minuten']::after{content:'GF 1h 3m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 4 Minuten']::after{content:'GF 1h 4m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 5 Minuten']::after{content:'GF 1h 5m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 6 Minuten']::after{content:'GF 1h 6m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 7 Minuten']::after{content:'GF 1h 7m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 8 Minuten']::after{content:'GF 1h 8m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 9 Minuten']::after{content:'GF 1h 9m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 10 Minuten']::after{content:'GF 1h 10m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 11 Minuten']::after{content:'GF 1h 11m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 12 Minuten']::after{content:'GF 1h 12m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 13 Minuten']::after{content:'GF 1h 13m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 14 Minuten']::after{content:'GF 1h 14m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 15 Minuten']::after{content:'GF 1h 15m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 16 Minuten']::after{content:'GF 1h 16m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 17 Minuten']::after{content:'GF 1h 17m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 18 Minuten']::after{content:'GF 1h 18m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 19 Minuten']::after{content:'GF 1h 19m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 20 Minuten']::after{content:'GF 1h 20m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 21 Minuten']::after{content:'GF 1h 21m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 22 Minuten']::after{content:'GF 1h 22m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 23 Minuten']::after{content:'GF 1h 23m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 24 Minuten']::after{content:'GF 1h 24m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 25 Minuten']::after{content:'GF 1h 25m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 26 Minuten']::after{content:'GF 1h 26m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 27 Minuten']::after{content:'GF 1h 27m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 28 Minuten']::after{content:'GF 1h 28m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 29 Minuten']::after{content:'GF 1h 29m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 30 Minuten']::after{content:'GF 1h 30m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 31 Minuten']::after{content:'GF 1h 31m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 32 Minuten']::after{content:'GF 1h 32m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 33 Minuten']::after{content:'GF 1h 33m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 34 Minuten']::after{content:'GF 1h 34m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 35 Minuten']::after{content:'GF 1h 35m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 36 Minuten']::after{content:'GF 1h 36m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 37 Minuten']::after{content:'GF 1h 37m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 38 Minuten']::after{content:'GF 1h 38m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 39 Minuten']::after{content:'GF 1h 39m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 40 Minuten']::after{content:'GF 1h 40m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 41 Minuten']::after{content:'GF 1h 41m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 42 Minuten']::after{content:'GF 1h 42m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 43 Minuten']::after{content:'GF 1h 43m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 44 Minuten']::after{content:'GF 1h 44m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 45 Minuten']::after{content:'GF 1h 45m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 46 Minuten']::after{content:'GF 1h 46m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 47 Minuten']::after{content:'GF 1h 47m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 48 Minuten']::after{content:'GF 1h 48m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 49 Minuten']::after{content:'GF 1h 49m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 50 Minuten']::after{content:'GF 1h 50m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 51 Minuten']::after{content:'GF 1h 51m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 52 Minuten']::after{content:'GF 1h 52m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 53 Minuten']::after{content:'GF 1h 53m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 54 Minuten']::after{content:'GF 1h 54m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 55 Minuten']::after{content:'GF 1h 55m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 56 Minuten']::after{content:'GF 1h 56m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 57 Minuten']::after{content:'GF 1h 57m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 58 Minuten']::after{content:'GF 1h 58m';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde 59 Minuten']::after{content:'GF 1h 59m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Minute']::after{content:'SS 1m';}
+#listrow_special a[href*='special_id=51'][title*='in 2 Minuten']::after{content:'SS 2m';}
+#listrow_special a[href*='special_id=51'][title*='in 3 Minuten']::after{content:'SS 3m';}
+#listrow_special a[href*='special_id=51'][title*='in 4 Minuten']::after{content:'SS 4m';}
+#listrow_special a[href*='special_id=51'][title*='in 5 Minuten']::after{content:'SS 5m';}
+#listrow_special a[href*='special_id=51'][title*='in 6 Minuten']::after{content:'SS 6m';}
+#listrow_special a[href*='special_id=51'][title*='in 7 Minuten']::after{content:'SS 7m';}
+#listrow_special a[href*='special_id=51'][title*='in 8 Minuten']::after{content:'SS 8m';}
+#listrow_special a[href*='special_id=51'][title*='in 9 Minuten']::after{content:'SS 9m';}
+#listrow_special a[href*='special_id=51'][title*='in 10 Minuten']::after{content:'SS 10m';}
+#listrow_special a[href*='special_id=51'][title*='in 11 Minuten']::after{content:'SS 11m';}
+#listrow_special a[href*='special_id=51'][title*='in 12 Minuten']::after{content:'SS 12m';}
+#listrow_special a[href*='special_id=51'][title*='in 13 Minuten']::after{content:'SS 13m';}
+#listrow_special a[href*='special_id=51'][title*='in 14 Minuten']::after{content:'SS 14m';}
+#listrow_special a[href*='special_id=51'][title*='in 15 Minuten']::after{content:'SS 15m';}
+#listrow_special a[href*='special_id=51'][title*='in 16 Minuten']::after{content:'SS 16m';}
+#listrow_special a[href*='special_id=51'][title*='in 17 Minuten']::after{content:'SS 17m';}
+#listrow_special a[href*='special_id=51'][title*='in 18 Minuten']::after{content:'SS 18m';}
+#listrow_special a[href*='special_id=51'][title*='in 19 Minuten']::after{content:'SS 19m';}
+#listrow_special a[href*='special_id=51'][title*='in 20 Minuten']::after{content:'SS 20m';}
+#listrow_special a[href*='special_id=51'][title*='in 21 Minuten']::after{content:'SS 21m';}
+#listrow_special a[href*='special_id=51'][title*='in 22 Minuten']::after{content:'SS 22m';}
+#listrow_special a[href*='special_id=51'][title*='in 23 Minuten']::after{content:'SS 23m';}
+#listrow_special a[href*='special_id=51'][title*='in 24 Minuten']::after{content:'SS 24m';}
+#listrow_special a[href*='special_id=51'][title*='in 25 Minuten']::after{content:'SS 25m';}
+#listrow_special a[href*='special_id=51'][title*='in 26 Minuten']::after{content:'SS 26m';}
+#listrow_special a[href*='special_id=51'][title*='in 27 Minuten']::after{content:'SS 27m';}
+#listrow_special a[href*='special_id=51'][title*='in 28 Minuten']::after{content:'SS 28m';}
+#listrow_special a[href*='special_id=51'][title*='in 29 Minuten']::after{content:'SS 29m';}
+#listrow_special a[href*='special_id=51'][title*='in 30 Minuten']::after{content:'SS 30m';}
+#listrow_special a[href*='special_id=51'][title*='in 31 Minuten']::after{content:'SS 31m';}
+#listrow_special a[href*='special_id=51'][title*='in 32 Minuten']::after{content:'SS 32m';}
+#listrow_special a[href*='special_id=51'][title*='in 33 Minuten']::after{content:'SS 33m';}
+#listrow_special a[href*='special_id=51'][title*='in 34 Minuten']::after{content:'SS 34m';}
+#listrow_special a[href*='special_id=51'][title*='in 35 Minuten']::after{content:'SS 35m';}
+#listrow_special a[href*='special_id=51'][title*='in 36 Minuten']::after{content:'SS 36m';}
+#listrow_special a[href*='special_id=51'][title*='in 37 Minuten']::after{content:'SS 37m';}
+#listrow_special a[href*='special_id=51'][title*='in 38 Minuten']::after{content:'SS 38m';}
+#listrow_special a[href*='special_id=51'][title*='in 39 Minuten']::after{content:'SS 39m';}
+#listrow_special a[href*='special_id=51'][title*='in 40 Minuten']::after{content:'SS 40m';}
+#listrow_special a[href*='special_id=51'][title*='in 41 Minuten']::after{content:'SS 41m';}
+#listrow_special a[href*='special_id=51'][title*='in 42 Minuten']::after{content:'SS 42m';}
+#listrow_special a[href*='special_id=51'][title*='in 43 Minuten']::after{content:'SS 43m';}
+#listrow_special a[href*='special_id=51'][title*='in 44 Minuten']::after{content:'SS 44m';}
+#listrow_special a[href*='special_id=51'][title*='in 45 Minuten']::after{content:'SS 45m';}
+#listrow_special a[href*='special_id=51'][title*='in 46 Minuten']::after{content:'SS 46m';}
+#listrow_special a[href*='special_id=51'][title*='in 47 Minuten']::after{content:'SS 47m';}
+#listrow_special a[href*='special_id=51'][title*='in 48 Minuten']::after{content:'SS 48m';}
+#listrow_special a[href*='special_id=51'][title*='in 49 Minuten']::after{content:'SS 49m';}
+#listrow_special a[href*='special_id=51'][title*='in 50 Minuten']::after{content:'SS 50m';}
+#listrow_special a[href*='special_id=51'][title*='in 51 Minuten']::after{content:'SS 51m';}
+#listrow_special a[href*='special_id=51'][title*='in 52 Minuten']::after{content:'SS 52m';}
+#listrow_special a[href*='special_id=51'][title*='in 53 Minuten']::after{content:'SS 53m';}
+#listrow_special a[href*='special_id=51'][title*='in 54 Minuten']::after{content:'SS 54m';}
+#listrow_special a[href*='special_id=51'][title*='in 55 Minuten']::after{content:'SS 55m';}
+#listrow_special a[href*='special_id=51'][title*='in 56 Minuten']::after{content:'SS 56m';}
+#listrow_special a[href*='special_id=51'][title*='in 57 Minuten']::after{content:'SS 57m';}
+#listrow_special a[href*='special_id=51'][title*='in 58 Minuten']::after{content:'SS 58m';}
+#listrow_special a[href*='special_id=51'][title*='in 59 Minuten']::after{content:'SS 59m';}
+#listrow_special a[href*='special_id=51'][title*='in 60 Minuten']::after{content:'SS 60m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde ']::after{content:'SS 1h';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 1 Minute']::after{content:'SS 1h 1m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 2 Minuten']::after{content:'SS 1h 2m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 3 Minuten']::after{content:'SS 1h 3m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 4 Minuten']::after{content:'SS 1h 4m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 5 Minuten']::after{content:'SS 1h 5m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 6 Minuten']::after{content:'SS 1h 6m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 7 Minuten']::after{content:'SS 1h 7m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 8 Minuten']::after{content:'SS 1h 8m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 9 Minuten']::after{content:'SS 1h 9m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 10 Minuten']::after{content:'SS 1h 10m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 11 Minuten']::after{content:'SS 1h 11m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 12 Minuten']::after{content:'SS 1h 12m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 13 Minuten']::after{content:'SS 1h 13m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 14 Minuten']::after{content:'SS 1h 14m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 15 Minuten']::after{content:'SS 1h 15m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 16 Minuten']::after{content:'SS 1h 16m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 17 Minuten']::after{content:'SS 1h 17m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 18 Minuten']::after{content:'SS 1h 18m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 19 Minuten']::after{content:'SS 1h 19m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 20 Minuten']::after{content:'SS 1h 20m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 21 Minuten']::after{content:'SS 1h 21m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 22 Minuten']::after{content:'SS 1h 22m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 23 Minuten']::after{content:'SS 1h 23m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 24 Minuten']::after{content:'SS 1h 24m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 25 Minuten']::after{content:'SS 1h 25m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 26 Minuten']::after{content:'SS 1h 26m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 27 Minuten']::after{content:'SS 1h 27m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 28 Minuten']::after{content:'SS 1h 28m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 29 Minuten']::after{content:'SS 1h 29m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 30 Minuten']::after{content:'SS 1h 30m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 31 Minuten']::after{content:'SS 1h 31m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 32 Minuten']::after{content:'SS 1h 32m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 33 Minuten']::after{content:'SS 1h 33m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 34 Minuten']::after{content:'SS 1h 34m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 35 Minuten']::after{content:'SS 1h 35m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 36 Minuten']::after{content:'SS 1h 36m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 37 Minuten']::after{content:'SS 1h 37m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 38 Minuten']::after{content:'SS 1h 38m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 39 Minuten']::after{content:'SS 1h 39m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 40 Minuten']::after{content:'SS 1h 40m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 41 Minuten']::after{content:'SS 1h 41m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 42 Minuten']::after{content:'SS 1h 42m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 43 Minuten']::after{content:'SS 1h 43m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 44 Minuten']::after{content:'SS 1h 44m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 45 Minuten']::after{content:'SS 1h 45m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 46 Minuten']::after{content:'SS 1h 46m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 47 Minuten']::after{content:'SS 1h 47m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 48 Minuten']::after{content:'SS 1h 48m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 49 Minuten']::after{content:'SS 1h 49m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 50 Minuten']::after{content:'SS 1h 50m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 51 Minuten']::after{content:'SS 1h 51m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 52 Minuten']::after{content:'SS 1h 52m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 53 Minuten']::after{content:'SS 1h 53m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 54 Minuten']::after{content:'SS 1h 54m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 55 Minuten']::after{content:'SS 1h 55m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 56 Minuten']::after{content:'SS 1h 56m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 57 Minuten']::after{content:'SS 1h 57m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 58 Minuten']::after{content:'SS 1h 58m';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde 59 Minuten']::after{content:'SS 1h 59m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe']::after {
+    font-size: 9px;
+    color: #aaa;
+    font-weight: bold;
+    margin-left: 3px;
+}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Minute']::after{content:'Dreh 1m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Minuten']::after{content:'Dreh 2m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 3 Minuten']::after{content:'Dreh 3m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 4 Minuten']::after{content:'Dreh 4m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 5 Minuten']::after{content:'Dreh 5m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 6 Minuten']::after{content:'Dreh 6m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 7 Minuten']::after{content:'Dreh 7m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 8 Minuten']::after{content:'Dreh 8m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 9 Minuten']::after{content:'Dreh 9m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 10 Minuten']::after{content:'Dreh 10m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 11 Minuten']::after{content:'Dreh 11m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 12 Minuten']::after{content:'Dreh 12m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 13 Minuten']::after{content:'Dreh 13m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 14 Minuten']::after{content:'Dreh 14m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 15 Minuten']::after{content:'Dreh 15m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 16 Minuten']::after{content:'Dreh 16m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 17 Minuten']::after{content:'Dreh 17m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 18 Minuten']::after{content:'Dreh 18m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 19 Minuten']::after{content:'Dreh 19m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 20 Minuten']::after{content:'Dreh 20m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 21 Minuten']::after{content:'Dreh 21m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 22 Minuten']::after{content:'Dreh 22m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 23 Minuten']::after{content:'Dreh 23m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 24 Minuten']::after{content:'Dreh 24m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 25 Minuten']::after{content:'Dreh 25m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 26 Minuten']::after{content:'Dreh 26m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 27 Minuten']::after{content:'Dreh 27m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 28 Minuten']::after{content:'Dreh 28m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 29 Minuten']::after{content:'Dreh 29m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 30 Minuten']::after{content:'Dreh 30m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 31 Minuten']::after{content:'Dreh 31m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 32 Minuten']::after{content:'Dreh 32m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 33 Minuten']::after{content:'Dreh 33m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 34 Minuten']::after{content:'Dreh 34m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 35 Minuten']::after{content:'Dreh 35m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 36 Minuten']::after{content:'Dreh 36m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 37 Minuten']::after{content:'Dreh 37m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 38 Minuten']::after{content:'Dreh 38m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 39 Minuten']::after{content:'Dreh 39m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 40 Minuten']::after{content:'Dreh 40m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 41 Minuten']::after{content:'Dreh 41m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 42 Minuten']::after{content:'Dreh 42m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 43 Minuten']::after{content:'Dreh 43m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 44 Minuten']::after{content:'Dreh 44m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 45 Minuten']::after{content:'Dreh 45m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 46 Minuten']::after{content:'Dreh 46m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 47 Minuten']::after{content:'Dreh 47m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 48 Minuten']::after{content:'Dreh 48m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 49 Minuten']::after{content:'Dreh 49m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 50 Minuten']::after{content:'Dreh 50m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 51 Minuten']::after{content:'Dreh 51m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 52 Minuten']::after{content:'Dreh 52m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 53 Minuten']::after{content:'Dreh 53m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 54 Minuten']::after{content:'Dreh 54m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 55 Minuten']::after{content:'Dreh 55m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 56 Minuten']::after{content:'Dreh 56m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 57 Minuten']::after{content:'Dreh 57m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 58 Minuten']::after{content:'Dreh 58m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 59 Minuten']::after{content:'Dreh 59m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 60 Minuten']::after{content:'Dreh 60m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde ']::after{content:'Dreh 1h';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 1 Minute']::after{content:'Dreh 1h 1m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 2 Minuten']::after{content:'Dreh 1h 2m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 3 Minuten']::after{content:'Dreh 1h 3m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 4 Minuten']::after{content:'Dreh 1h 4m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 5 Minuten']::after{content:'Dreh 1h 5m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 6 Minuten']::after{content:'Dreh 1h 6m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 7 Minuten']::after{content:'Dreh 1h 7m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 8 Minuten']::after{content:'Dreh 1h 8m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 9 Minuten']::after{content:'Dreh 1h 9m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 10 Minuten']::after{content:'Dreh 1h 10m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 11 Minuten']::after{content:'Dreh 1h 11m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 12 Minuten']::after{content:'Dreh 1h 12m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 13 Minuten']::after{content:'Dreh 1h 13m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 14 Minuten']::after{content:'Dreh 1h 14m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 15 Minuten']::after{content:'Dreh 1h 15m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 16 Minuten']::after{content:'Dreh 1h 16m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 17 Minuten']::after{content:'Dreh 1h 17m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 18 Minuten']::after{content:'Dreh 1h 18m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 19 Minuten']::after{content:'Dreh 1h 19m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 20 Minuten']::after{content:'Dreh 1h 20m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 21 Minuten']::after{content:'Dreh 1h 21m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 22 Minuten']::after{content:'Dreh 1h 22m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 23 Minuten']::after{content:'Dreh 1h 23m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 24 Minuten']::after{content:'Dreh 1h 24m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 25 Minuten']::after{content:'Dreh 1h 25m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 26 Minuten']::after{content:'Dreh 1h 26m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 27 Minuten']::after{content:'Dreh 1h 27m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 28 Minuten']::after{content:'Dreh 1h 28m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 29 Minuten']::after{content:'Dreh 1h 29m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 30 Minuten']::after{content:'Dreh 1h 30m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 31 Minuten']::after{content:'Dreh 1h 31m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 32 Minuten']::after{content:'Dreh 1h 32m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 33 Minuten']::after{content:'Dreh 1h 33m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 34 Minuten']::after{content:'Dreh 1h 34m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 35 Minuten']::after{content:'Dreh 1h 35m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 36 Minuten']::after{content:'Dreh 1h 36m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 37 Minuten']::after{content:'Dreh 1h 37m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 38 Minuten']::after{content:'Dreh 1h 38m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 39 Minuten']::after{content:'Dreh 1h 39m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 40 Minuten']::after{content:'Dreh 1h 40m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 41 Minuten']::after{content:'Dreh 1h 41m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 42 Minuten']::after{content:'Dreh 1h 42m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 43 Minuten']::after{content:'Dreh 1h 43m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 44 Minuten']::after{content:'Dreh 1h 44m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 45 Minuten']::after{content:'Dreh 1h 45m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 46 Minuten']::after{content:'Dreh 1h 46m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 47 Minuten']::after{content:'Dreh 1h 47m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 48 Minuten']::after{content:'Dreh 1h 48m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 49 Minuten']::after{content:'Dreh 1h 49m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 50 Minuten']::after{content:'Dreh 1h 50m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 51 Minuten']::after{content:'Dreh 1h 51m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 52 Minuten']::after{content:'Dreh 1h 52m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 53 Minuten']::after{content:'Dreh 1h 53m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 54 Minuten']::after{content:'Dreh 1h 54m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 55 Minuten']::after{content:'Dreh 1h 55m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 56 Minuten']::after{content:'Dreh 1h 56m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 57 Minuten']::after{content:'Dreh 1h 57m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 58 Minuten']::after{content:'Dreh 1h 58m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde 59 Minuten']::after{content:'Dreh 1h 59m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden ']::after{content:'Dreh 2h';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 1 Minute']::after{content:'Dreh 2h 1m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 2 Minuten']::after{content:'Dreh 2h 2m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 3 Minuten']::after{content:'Dreh 2h 3m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 4 Minuten']::after{content:'Dreh 2h 4m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 5 Minuten']::after{content:'Dreh 2h 5m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 6 Minuten']::after{content:'Dreh 2h 6m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 7 Minuten']::after{content:'Dreh 2h 7m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 8 Minuten']::after{content:'Dreh 2h 8m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 9 Minuten']::after{content:'Dreh 2h 9m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 10 Minuten']::after{content:'Dreh 2h 10m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 11 Minuten']::after{content:'Dreh 2h 11m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 12 Minuten']::after{content:'Dreh 2h 12m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 13 Minuten']::after{content:'Dreh 2h 13m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 14 Minuten']::after{content:'Dreh 2h 14m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 15 Minuten']::after{content:'Dreh 2h 15m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 16 Minuten']::after{content:'Dreh 2h 16m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 17 Minuten']::after{content:'Dreh 2h 17m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 18 Minuten']::after{content:'Dreh 2h 18m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 19 Minuten']::after{content:'Dreh 2h 19m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 20 Minuten']::after{content:'Dreh 2h 20m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 21 Minuten']::after{content:'Dreh 2h 21m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 22 Minuten']::after{content:'Dreh 2h 22m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 23 Minuten']::after{content:'Dreh 2h 23m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 24 Minuten']::after{content:'Dreh 2h 24m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 25 Minuten']::after{content:'Dreh 2h 25m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 26 Minuten']::after{content:'Dreh 2h 26m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 27 Minuten']::after{content:'Dreh 2h 27m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 28 Minuten']::after{content:'Dreh 2h 28m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 29 Minuten']::after{content:'Dreh 2h 29m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 30 Minuten']::after{content:'Dreh 2h 30m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 31 Minuten']::after{content:'Dreh 2h 31m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 32 Minuten']::after{content:'Dreh 2h 32m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 33 Minuten']::after{content:'Dreh 2h 33m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 34 Minuten']::after{content:'Dreh 2h 34m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 35 Minuten']::after{content:'Dreh 2h 35m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 36 Minuten']::after{content:'Dreh 2h 36m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 37 Minuten']::after{content:'Dreh 2h 37m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 38 Minuten']::after{content:'Dreh 2h 38m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 39 Minuten']::after{content:'Dreh 2h 39m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 40 Minuten']::after{content:'Dreh 2h 40m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 41 Minuten']::after{content:'Dreh 2h 41m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 42 Minuten']::after{content:'Dreh 2h 42m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 43 Minuten']::after{content:'Dreh 2h 43m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 44 Minuten']::after{content:'Dreh 2h 44m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 45 Minuten']::after{content:'Dreh 2h 45m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 46 Minuten']::after{content:'Dreh 2h 46m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 47 Minuten']::after{content:'Dreh 2h 47m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 48 Minuten']::after{content:'Dreh 2h 48m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 49 Minuten']::after{content:'Dreh 2h 49m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 50 Minuten']::after{content:'Dreh 2h 50m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 51 Minuten']::after{content:'Dreh 2h 51m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 52 Minuten']::after{content:'Dreh 2h 52m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 53 Minuten']::after{content:'Dreh 2h 53m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 54 Minuten']::after{content:'Dreh 2h 54m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 55 Minuten']::after{content:'Dreh 2h 55m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 56 Minuten']::after{content:'Dreh 2h 56m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 57 Minuten']::after{content:'Dreh 2h 57m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 58 Minuten']::after{content:'Dreh 2h 58m';}
+#listrow_special a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden 59 Minuten']::after{content:'Dreh 2h 59m';}
+
 /* Phasenzeug */
 #listrow_status span[title*='Phasen'] {color: lightblue; background: #000624; }
 #listrow_status span[title^='Phasenortung']:before {content: "☇ |"; font-weight: bold; font-size: 10px; }
