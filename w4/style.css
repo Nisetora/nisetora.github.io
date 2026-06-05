@@ -628,6 +628,11 @@ img[src$="minigame/a6.gif"] { background-image: url(https://nuhp.de/pics/rp6.png
 #listrow_status span[title^='Goldduft']:before {content: "GD"; font-weight: bold; font-size: 10px;}
 #listrow_status span[title^='Trank der Waldpflanzensicht']:before {content: "PS"; font-weight: bold; font-size: 10px; }
 #listrow_status span[title^='Überladen']:before {content: "ÜL"; font-weight: bold; font-size: 10px; }
+
+/* Serum - custom by Nisetora */
+#listrow_status span[title^='Seelensprung']:before {content: "SS |"; font-weight: bold; font-size: 10px;}
+#listrow_status span[title^='Seelensprung'] a {font-size: 10px !important; padding-left: 1px;}
+
 /* Phasenzeug */
 #listrow_status span[title*='Phasen'] {color: lightblue; background: #000624; }
 #listrow_status span[title^='Phasenortung']:before {content: "☇ |"; font-weight: bold; font-size: 10px; }
