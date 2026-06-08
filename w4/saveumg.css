@@ -2,7 +2,7 @@
 
 /* =======================================================================
    saveumg.css -- Terrain/environment SVG overlays on map tiles
-   Updated: 2026-06-08T19:41:51Z
+   Updated: 2026-06-08T20:43:00Z
    Loaded via @import from style.css
    GENERATED -- do not edit SVG groups by hand.
    To update angelstellen: trigger a push from fwcalc.
@@ -26,17 +26,17 @@
     content: url(../umgs/U_f.svg); z-index:1; width:50px; position:absolute; margin-left:0; background:0;
 }
 
-/* U_w.svg -- 79 Felder */
-#mapx-19997y-20093 a:before,#mapx-429y-292 a:before,#mapx-426y-298 a:before,#mapx-425y-294 a:before,#mapx-318y-851 a:before,#mapx-290y-721 a:before,#mapx-284y-719 a:before,#mapx-231y-368 a:before,
-#mapx-230y-369 a:before,#mapx-230y-367 a:before,#mapx-230y-366 a:before,#mapx-229y-369 a:before,#mapx-229y-368 a:before,#mapx-228y-368 a:before,#mapx-227y-368 a:before,#mapx-227y-366 a:before,
-#mapx-226y-367 a:before,#mapx-226y-366 a:before,#mapx-177y-271 a:before,#mapx-176y-268 a:before,#mapx-175y-275 a:before,#mapx-171y-276 a:before,#mapx-171y-272 a:before,#mapx-168y-858 a:before,
-#mapx-165y-857 a:before,#mapx-94y-894 a:before,#mapx-93y-894 a:before,#mapx58y106 a:before,#mapx65y109 a:before,#mapx75y83 a:before,#mapx80y117 a:before,#mapx88y133 a:before,
-#mapx89y133 a:before,#mapx94y93 a:before,#mapx97y91 a:before,#mapx99y100 a:before,#mapx100y136 a:before,#mapx107y94 a:before,#mapx112y120 a:before,#mapx113y93 a:before,
-#mapx114y117 a:before,#mapx114y122 a:before,#mapx115y117 a:before,#mapx116y115 a:before,#mapx116y116 a:before,#mapx117y108 a:before,#mapx117y116 a:before,#mapx117y117 a:before,
-#mapx117y120 a:before,#mapx118y106 a:before,#mapx118y107 a:before,#mapx118y115 a:before,#mapx118y117 a:before,#mapx120y116 a:before,#mapx120y117 a:before,#mapx121y104 a:before,
-#mapx121y116 a:before,#mapx122y111 a:before,#mapx122y113 a:before,#mapx122y115 a:before,#mapx122y117 a:before,#mapx127y114 a:before,#mapx132y117 a:before,#mapx138y114 a:before,
-#mapx138y118 a:before,#mapx150y121 a:before,#mapx152y120 a:before,#mapx189y134 a:before,#mapx191y136 a:before,#mapx198y136 a:before,#mapx203y134 a:before,#mapx205y134 a:before,
-#mapx1006y1000 a:before,#mapx1008y998 a:before,#mapx1010y994 a:before,#mapx1011y985 a:before,#mapx1011y990 a:before,#mapx1011y996 a:before,#mapx1012y988 a:before {
+/* U_w.svg -- 80 Felder */
+#mapx-19997y-20093 a:before,#mapx-429y-292 a:before,#mapx-426y-298 a:before,#mapx-425y-294 a:before,#mapx-319y-854 a:before,#mapx-318y-851 a:before,#mapx-290y-721 a:before,#mapx-284y-719 a:before,
+#mapx-231y-368 a:before,#mapx-230y-369 a:before,#mapx-230y-367 a:before,#mapx-230y-366 a:before,#mapx-229y-369 a:before,#mapx-229y-368 a:before,#mapx-228y-368 a:before,#mapx-227y-368 a:before,
+#mapx-227y-366 a:before,#mapx-226y-367 a:before,#mapx-226y-366 a:before,#mapx-177y-271 a:before,#mapx-176y-268 a:before,#mapx-175y-275 a:before,#mapx-171y-276 a:before,#mapx-171y-272 a:before,
+#mapx-168y-858 a:before,#mapx-165y-857 a:before,#mapx-94y-894 a:before,#mapx-93y-894 a:before,#mapx58y106 a:before,#mapx65y109 a:before,#mapx75y83 a:before,#mapx80y117 a:before,
+#mapx88y133 a:before,#mapx89y133 a:before,#mapx94y93 a:before,#mapx97y91 a:before,#mapx99y100 a:before,#mapx100y136 a:before,#mapx107y94 a:before,#mapx112y120 a:before,
+#mapx113y93 a:before,#mapx114y117 a:before,#mapx114y122 a:before,#mapx115y117 a:before,#mapx116y115 a:before,#mapx116y116 a:before,#mapx117y108 a:before,#mapx117y116 a:before,
+#mapx117y117 a:before,#mapx117y120 a:before,#mapx118y106 a:before,#mapx118y107 a:before,#mapx118y115 a:before,#mapx118y117 a:before,#mapx120y116 a:before,#mapx120y117 a:before,
+#mapx121y104 a:before,#mapx121y116 a:before,#mapx122y111 a:before,#mapx122y113 a:before,#mapx122y115 a:before,#mapx122y117 a:before,#mapx127y114 a:before,#mapx132y117 a:before,
+#mapx138y114 a:before,#mapx138y118 a:before,#mapx150y121 a:before,#mapx152y120 a:before,#mapx189y134 a:before,#mapx191y136 a:before,#mapx198y136 a:before,#mapx203y134 a:before,
+#mapx205y134 a:before,#mapx1006y1000 a:before,#mapx1008y998 a:before,#mapx1010y994 a:before,#mapx1011y985 a:before,#mapx1011y990 a:before,#mapx1011y996 a:before,#mapx1012y988 a:before {
     content: url(../umgs/U_w.svg); z-index:1; width:50px; position:absolute; margin-left:0; background:0;
 }
 
