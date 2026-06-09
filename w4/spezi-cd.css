@@ -336,7 +336,7 @@
 #listrow_special a[href*='special_id=22'][title*='in 1 Stunde']::after{content:'TW 1h';}
 
 /* ── BG (Blutgespür, special_id=101) + uM (unkontrollierte Mutation, special_id=102) [Quarren] ── */
-/* BG: max CD 19 min, uM: max CD 30 min. CDs are independent. */
+/* BG: max CD 19 min, uM: max CD 30 min. CDs are independent. In theory at least... */
 #listrow_special a[href*='special_id=101'][title*='in 1 Minute']::after{content:'BG 1m';}
 #listrow_special a[href*='special_id=101'][title*='in 2 Minuten']::after{content:'BG 2m';}
 #listrow_special a[href*='special_id=101'][title*='in 3 Minuten']::after{content:'BG 3m';}
@@ -356,6 +356,26 @@
 #listrow_special a[href*='special_id=101'][title*='in 17 Minuten']::after{content:'BG 17m';}
 #listrow_special a[href*='special_id=101'][title*='in 18 Minuten']::after{content:'BG 18m';}
 #listrow_special a[href*='special_id=101'][title*='in 19 Minuten']::after{content:'BG 19m';}
+#listrow_special a[href*='special_id=101'][title*='in 20 Minuten']::after{content:'BG 20m';}
+#listrow_special a[href*='special_id=101'][title*='in 21 Minuten']::after{content:'BG 21m';}
+#listrow_special a[href*='special_id=101'][title*='in 22 Minuten']::after{content:'BG 22m';}
+#listrow_special a[href*='special_id=101'][title*='in 23 Minuten']::after{content:'BG 23m';}
+#listrow_special a[href*='special_id=101'][title*='in 24 Minuten']::after{content:'BG 24m';}
+#listrow_special a[href*='special_id=101'][title*='in 25 Minuten']::after{content:'BG 25m';}
+#listrow_special a[href*='special_id=101'][title*='in 26 Minuten']::after{content:'BG 26m';}
+#listrow_special a[href*='special_id=101'][title*='in 27 Minuten']::after{content:'BG 27m';}
+#listrow_special a[href*='special_id=101'][title*='in 28 Minuten']::after{content:'BG 28m';}
+#listrow_special a[href*='special_id=101'][title*='in 29 Minuten']::after{content:'BG 29m';}
+#listrow_special a[href*='special_id=101'][title*='in 30 Minuten']::after{content:'BG 30m';}
+#listrow_special a[href*='special_id=101'][title*='in 31 Minuten']::after{content:'BG 31m';}
+#listrow_special a[href*='special_id=101'][title*='in 32 Minuten']::after{content:'BG 32m';}
+#listrow_special a[href*='special_id=101'][title*='in 33 Minuten']::after{content:'BG 33m';}
+#listrow_special a[href*='special_id=101'][title*='in 34 Minuten']::after{content:'BG 34m';}
+#listrow_special a[href*='special_id=101'][title*='in 35 Minuten']::after{content:'BG 35m';}
+#listrow_special a[href*='special_id=101'][title*='in 36 Minuten']::after{content:'BG 36m';}
+#listrow_special a[href*='special_id=101'][title*='in 37 Minuten']::after{content:'BG 37m';}
+#listrow_special a[href*='special_id=101'][title*='in 38 Minuten']::after{content:'BG 38m';}
+#listrow_special a[href*='special_id=101'][title*='in 39 Minuten']::after{content:'BG 39m';}
 
 #listrow_special a[href*='special_id=102'][title*='in 1 Minute']::after{content:'uM 1m';}
 #listrow_special a[href*='special_id=102'][title*='in 2 Minuten']::after{content:'uM 2m';}
@@ -387,6 +407,21 @@
 #listrow_special a[href*='special_id=102'][title*='in 28 Minuten']::after{content:'uM 28m';}
 #listrow_special a[href*='special_id=102'][title*='in 29 Minuten']::after{content:'uM 29m';}
 #listrow_special a[href*='special_id=102'][title*='in 30 Minuten']::after{content:'uM 30m';}
+#listrow_special a[href*='special_id=102'][title*='in 31 Minuten']::after{content:'uM 31m';}
+#listrow_special a[href*='special_id=102'][title*='in 32 Minuten']::after{content:'uM 32m';}
+#listrow_special a[href*='special_id=102'][title*='in 33 Minuten']::after{content:'uM 33m';}
+#listrow_special a[href*='special_id=102'][title*='in 34 Minuten']::after{content:'uM 34m';}
+#listrow_special a[href*='special_id=102'][title*='in 35 Minuten']::after{content:'uM 35m';}
+#listrow_special a[href*='special_id=102'][title*='in 36 Minuten']::after{content:'uM 36m';}
+#listrow_special a[href*='special_id=102'][title*='in 37 Minuten']::after{content:'uM 37m';}
+#listrow_special a[href*='special_id=102'][title*='in 38 Minuten']::after{content:'uM 38m';}
+#listrow_special a[href*='special_id=102'][title*='in 39 Minuten']::after{content:'uM 39m';}
+#listrow_special a[href*='special_id=102'][title*='in 40 Minuten']::after{content:'uM 40m';}
+#listrow_special a[href*='special_id=102'][title*='in 41 Minuten']::after{content:'uM 41m';}
+#listrow_special a[href*='special_id=102'][title*='in 42 Minuten']::after{content:'uM 42m';}
+#listrow_special a[href*='special_id=102'][title*='in 43 Minuten']::after{content:'uM 43m';}
+#listrow_special a[href*='special_id=102'][title*='in 44 Minuten']::after{content:'uM 44m';}
+#listrow_special a[href*='special_id=102'][title*='in 45 Minuten']::after{content:'uM 45m';}
 
 /* Herrschaft → Turm */
 #link_tower { font-size: 0; }
