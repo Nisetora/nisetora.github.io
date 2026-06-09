@@ -1,0 +1,393 @@
+/* ════════════════════════════════════════════════════════════════════════════
+   spezi-cd.css — Spezi cooldown counter labels (#listrow_special)
+   Loaded via @import from style.css.
+
+   Sections:
+     Base rule    shared anchor layout for all spezi-CD labels
+     GF + SS      Geisterform (52) + Seelensprung (51)   — max 60 min
+     DS           Drehscheibe                             — up to 4h (span:has)
+     AD + TW      Arbeitsdrang (21) + Titanwaffen (22)   — TW extended to 1h
+     BG + uM      Blutgespür (101) + unkontrollierte Mutation (102)  [Quarren]
+════════════════════════════════════════════════════════════════════════════ */
+
+/* ── Base rule: anchor layout (covers all directspezilinks on CD) ─────── */
+#listrow_special a.directspezilink[title*='einsatzbereit'] { margin-right: 40px; overflow: visible; }
+#listrow_special a.directspezilink[title*='einsatzbereit']::after {
+    position: absolute; left: 17px; top: 2px; white-space: nowrap;
+    font-size: 9px; color: #555; font-weight: bold; line-height: 11px; pointer-events: none;
+}
+
+/* ── GF (Geisterform, special_id=52) + SS (Seelensprung, special_id=51) ── */
+#listrow_special a[href*='special_id=52'][title*='in 1 Minute']::after{content:'GF 1m';}
+#listrow_special a[href*='special_id=52'][title*='in 2 Minuten']::after{content:'GF 2m';}
+#listrow_special a[href*='special_id=52'][title*='in 3 Minuten']::after{content:'GF 3m';}
+#listrow_special a[href*='special_id=52'][title*='in 4 Minuten']::after{content:'GF 4m';}
+#listrow_special a[href*='special_id=52'][title*='in 5 Minuten']::after{content:'GF 5m';}
+#listrow_special a[href*='special_id=52'][title*='in 6 Minuten']::after{content:'GF 6m';}
+#listrow_special a[href*='special_id=52'][title*='in 7 Minuten']::after{content:'GF 7m';}
+#listrow_special a[href*='special_id=52'][title*='in 8 Minuten']::after{content:'GF 8m';}
+#listrow_special a[href*='special_id=52'][title*='in 9 Minuten']::after{content:'GF 9m';}
+#listrow_special a[href*='special_id=52'][title*='in 10 Minuten']::after{content:'GF 10m';}
+#listrow_special a[href*='special_id=52'][title*='in 11 Minuten']::after{content:'GF 11m';}
+#listrow_special a[href*='special_id=52'][title*='in 12 Minuten']::after{content:'GF 12m';}
+#listrow_special a[href*='special_id=52'][title*='in 13 Minuten']::after{content:'GF 13m';}
+#listrow_special a[href*='special_id=52'][title*='in 14 Minuten']::after{content:'GF 14m';}
+#listrow_special a[href*='special_id=52'][title*='in 15 Minuten']::after{content:'GF 15m';}
+#listrow_special a[href*='special_id=52'][title*='in 16 Minuten']::after{content:'GF 16m';}
+#listrow_special a[href*='special_id=52'][title*='in 17 Minuten']::after{content:'GF 17m';}
+#listrow_special a[href*='special_id=52'][title*='in 18 Minuten']::after{content:'GF 18m';}
+#listrow_special a[href*='special_id=52'][title*='in 19 Minuten']::after{content:'GF 19m';}
+#listrow_special a[href*='special_id=52'][title*='in 20 Minuten']::after{content:'GF 20m';}
+#listrow_special a[href*='special_id=52'][title*='in 21 Minuten']::after{content:'GF 21m';}
+#listrow_special a[href*='special_id=52'][title*='in 22 Minuten']::after{content:'GF 22m';}
+#listrow_special a[href*='special_id=52'][title*='in 23 Minuten']::after{content:'GF 23m';}
+#listrow_special a[href*='special_id=52'][title*='in 24 Minuten']::after{content:'GF 24m';}
+#listrow_special a[href*='special_id=52'][title*='in 25 Minuten']::after{content:'GF 25m';}
+#listrow_special a[href*='special_id=52'][title*='in 26 Minuten']::after{content:'GF 26m';}
+#listrow_special a[href*='special_id=52'][title*='in 27 Minuten']::after{content:'GF 27m';}
+#listrow_special a[href*='special_id=52'][title*='in 28 Minuten']::after{content:'GF 28m';}
+#listrow_special a[href*='special_id=52'][title*='in 29 Minuten']::after{content:'GF 29m';}
+#listrow_special a[href*='special_id=52'][title*='in 30 Minuten']::after{content:'GF 30m';}
+#listrow_special a[href*='special_id=52'][title*='in 31 Minuten']::after{content:'GF 31m';}
+#listrow_special a[href*='special_id=52'][title*='in 32 Minuten']::after{content:'GF 32m';}
+#listrow_special a[href*='special_id=52'][title*='in 33 Minuten']::after{content:'GF 33m';}
+#listrow_special a[href*='special_id=52'][title*='in 34 Minuten']::after{content:'GF 34m';}
+#listrow_special a[href*='special_id=52'][title*='in 35 Minuten']::after{content:'GF 35m';}
+#listrow_special a[href*='special_id=52'][title*='in 36 Minuten']::after{content:'GF 36m';}
+#listrow_special a[href*='special_id=52'][title*='in 37 Minuten']::after{content:'GF 37m';}
+#listrow_special a[href*='special_id=52'][title*='in 38 Minuten']::after{content:'GF 38m';}
+#listrow_special a[href*='special_id=52'][title*='in 39 Minuten']::after{content:'GF 39m';}
+#listrow_special a[href*='special_id=52'][title*='in 40 Minuten']::after{content:'GF 40m';}
+#listrow_special a[href*='special_id=52'][title*='in 41 Minuten']::after{content:'GF 41m';}
+#listrow_special a[href*='special_id=52'][title*='in 42 Minuten']::after{content:'GF 42m';}
+#listrow_special a[href*='special_id=52'][title*='in 43 Minuten']::after{content:'GF 43m';}
+#listrow_special a[href*='special_id=52'][title*='in 44 Minuten']::after{content:'GF 44m';}
+#listrow_special a[href*='special_id=52'][title*='in 45 Minuten']::after{content:'GF 45m';}
+#listrow_special a[href*='special_id=52'][title*='in 46 Minuten']::after{content:'GF 46m';}
+#listrow_special a[href*='special_id=52'][title*='in 47 Minuten']::after{content:'GF 47m';}
+#listrow_special a[href*='special_id=52'][title*='in 48 Minuten']::after{content:'GF 48m';}
+#listrow_special a[href*='special_id=52'][title*='in 49 Minuten']::after{content:'GF 49m';}
+#listrow_special a[href*='special_id=52'][title*='in 50 Minuten']::after{content:'GF 50m';}
+#listrow_special a[href*='special_id=52'][title*='in 51 Minuten']::after{content:'GF 51m';}
+#listrow_special a[href*='special_id=52'][title*='in 52 Minuten']::after{content:'GF 52m';}
+#listrow_special a[href*='special_id=52'][title*='in 53 Minuten']::after{content:'GF 53m';}
+#listrow_special a[href*='special_id=52'][title*='in 54 Minuten']::after{content:'GF 54m';}
+#listrow_special a[href*='special_id=52'][title*='in 55 Minuten']::after{content:'GF 55m';}
+#listrow_special a[href*='special_id=52'][title*='in 56 Minuten']::after{content:'GF 56m';}
+#listrow_special a[href*='special_id=52'][title*='in 57 Minuten']::after{content:'GF 57m';}
+#listrow_special a[href*='special_id=52'][title*='in 58 Minuten']::after{content:'GF 58m';}
+#listrow_special a[href*='special_id=52'][title*='in 59 Minuten']::after{content:'GF 59m';}
+#listrow_special a[href*='special_id=52'][title*='in 60 Minuten']::after{content:'GF 1h';}
+#listrow_special a[href*='special_id=52'][title*='in 1 Stunde']::after{content:'GF 1h';}
+
+#listrow_special a[href*='special_id=51'][title*='in 1 Minute']::after{content:'SS 1m';}
+#listrow_special a[href*='special_id=51'][title*='in 2 Minuten']::after{content:'SS 2m';}
+#listrow_special a[href*='special_id=51'][title*='in 3 Minuten']::after{content:'SS 3m';}
+#listrow_special a[href*='special_id=51'][title*='in 4 Minuten']::after{content:'SS 4m';}
+#listrow_special a[href*='special_id=51'][title*='in 5 Minuten']::after{content:'SS 5m';}
+#listrow_special a[href*='special_id=51'][title*='in 6 Minuten']::after{content:'SS 6m';}
+#listrow_special a[href*='special_id=51'][title*='in 7 Minuten']::after{content:'SS 7m';}
+#listrow_special a[href*='special_id=51'][title*='in 8 Minuten']::after{content:'SS 8m';}
+#listrow_special a[href*='special_id=51'][title*='in 9 Minuten']::after{content:'SS 9m';}
+#listrow_special a[href*='special_id=51'][title*='in 10 Minuten']::after{content:'SS 10m';}
+#listrow_special a[href*='special_id=51'][title*='in 11 Minuten']::after{content:'SS 11m';}
+#listrow_special a[href*='special_id=51'][title*='in 12 Minuten']::after{content:'SS 12m';}
+#listrow_special a[href*='special_id=51'][title*='in 13 Minuten']::after{content:'SS 13m';}
+#listrow_special a[href*='special_id=51'][title*='in 14 Minuten']::after{content:'SS 14m';}
+#listrow_special a[href*='special_id=51'][title*='in 15 Minuten']::after{content:'SS 15m';}
+#listrow_special a[href*='special_id=51'][title*='in 16 Minuten']::after{content:'SS 16m';}
+#listrow_special a[href*='special_id=51'][title*='in 17 Minuten']::after{content:'SS 17m';}
+#listrow_special a[href*='special_id=51'][title*='in 18 Minuten']::after{content:'SS 18m';}
+#listrow_special a[href*='special_id=51'][title*='in 19 Minuten']::after{content:'SS 19m';}
+#listrow_special a[href*='special_id=51'][title*='in 20 Minuten']::after{content:'SS 20m';}
+#listrow_special a[href*='special_id=51'][title*='in 21 Minuten']::after{content:'SS 21m';}
+#listrow_special a[href*='special_id=51'][title*='in 22 Minuten']::after{content:'SS 22m';}
+#listrow_special a[href*='special_id=51'][title*='in 23 Minuten']::after{content:'SS 23m';}
+#listrow_special a[href*='special_id=51'][title*='in 24 Minuten']::after{content:'SS 24m';}
+#listrow_special a[href*='special_id=51'][title*='in 25 Minuten']::after{content:'SS 25m';}
+#listrow_special a[href*='special_id=51'][title*='in 26 Minuten']::after{content:'SS 26m';}
+#listrow_special a[href*='special_id=51'][title*='in 27 Minuten']::after{content:'SS 27m';}
+#listrow_special a[href*='special_id=51'][title*='in 28 Minuten']::after{content:'SS 28m';}
+#listrow_special a[href*='special_id=51'][title*='in 29 Minuten']::after{content:'SS 29m';}
+#listrow_special a[href*='special_id=51'][title*='in 30 Minuten']::after{content:'SS 30m';}
+#listrow_special a[href*='special_id=51'][title*='in 31 Minuten']::after{content:'SS 31m';}
+#listrow_special a[href*='special_id=51'][title*='in 32 Minuten']::after{content:'SS 32m';}
+#listrow_special a[href*='special_id=51'][title*='in 33 Minuten']::after{content:'SS 33m';}
+#listrow_special a[href*='special_id=51'][title*='in 34 Minuten']::after{content:'SS 34m';}
+#listrow_special a[href*='special_id=51'][title*='in 35 Minuten']::after{content:'SS 35m';}
+#listrow_special a[href*='special_id=51'][title*='in 36 Minuten']::after{content:'SS 36m';}
+#listrow_special a[href*='special_id=51'][title*='in 37 Minuten']::after{content:'SS 37m';}
+#listrow_special a[href*='special_id=51'][title*='in 38 Minuten']::after{content:'SS 38m';}
+#listrow_special a[href*='special_id=51'][title*='in 39 Minuten']::after{content:'SS 39m';}
+#listrow_special a[href*='special_id=51'][title*='in 40 Minuten']::after{content:'SS 40m';}
+#listrow_special a[href*='special_id=51'][title*='in 41 Minuten']::after{content:'SS 41m';}
+#listrow_special a[href*='special_id=51'][title*='in 42 Minuten']::after{content:'SS 42m';}
+#listrow_special a[href*='special_id=51'][title*='in 43 Minuten']::after{content:'SS 43m';}
+#listrow_special a[href*='special_id=51'][title*='in 44 Minuten']::after{content:'SS 44m';}
+#listrow_special a[href*='special_id=51'][title*='in 45 Minuten']::after{content:'SS 45m';}
+#listrow_special a[href*='special_id=51'][title*='in 46 Minuten']::after{content:'SS 46m';}
+#listrow_special a[href*='special_id=51'][title*='in 47 Minuten']::after{content:'SS 47m';}
+#listrow_special a[href*='special_id=51'][title*='in 48 Minuten']::after{content:'SS 48m';}
+#listrow_special a[href*='special_id=51'][title*='in 49 Minuten']::after{content:'SS 49m';}
+#listrow_special a[href*='special_id=51'][title*='in 50 Minuten']::after{content:'SS 50m';}
+#listrow_special a[href*='special_id=51'][title*='in 51 Minuten']::after{content:'SS 51m';}
+#listrow_special a[href*='special_id=51'][title*='in 52 Minuten']::after{content:'SS 52m';}
+#listrow_special a[href*='special_id=51'][title*='in 53 Minuten']::after{content:'SS 53m';}
+#listrow_special a[href*='special_id=51'][title*='in 54 Minuten']::after{content:'SS 54m';}
+#listrow_special a[href*='special_id=51'][title*='in 55 Minuten']::after{content:'SS 55m';}
+#listrow_special a[href*='special_id=51'][title*='in 56 Minuten']::after{content:'SS 56m';}
+#listrow_special a[href*='special_id=51'][title*='in 57 Minuten']::after{content:'SS 57m';}
+#listrow_special a[href*='special_id=51'][title*='in 58 Minuten']::after{content:'SS 58m';}
+#listrow_special a[href*='special_id=51'][title*='in 59 Minuten']::after{content:'SS 59m';}
+#listrow_special a[href*='special_id=51'][title*='in 60 Minuten']::after{content:'SS 1h';}
+#listrow_special a[href*='special_id=51'][title*='in 1 Stunde']::after{content:'SS 1h';}
+
+/* ── DS (Drehscheibe) — uses span:has() to avoid rotated <a> transform ── */
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe'])::after { font-size: 9px; color: #555; font-weight: bold; margin-left: 3px; }
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Minute'])::after{content:'DS 1m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Minuten'])::after{content:'DS 2m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 3 Minuten'])::after{content:'DS 3m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 4 Minuten'])::after{content:'DS 4m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 5 Minuten'])::after{content:'DS 5m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 6 Minuten'])::after{content:'DS 6m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 7 Minuten'])::after{content:'DS 7m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 8 Minuten'])::after{content:'DS 8m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 9 Minuten'])::after{content:'DS 9m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 10 Minuten'])::after{content:'DS 10m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 11 Minuten'])::after{content:'DS 11m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 12 Minuten'])::after{content:'DS 12m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 13 Minuten'])::after{content:'DS 13m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 14 Minuten'])::after{content:'DS 14m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 15 Minuten'])::after{content:'DS 15m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 16 Minuten'])::after{content:'DS 16m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 17 Minuten'])::after{content:'DS 17m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 18 Minuten'])::after{content:'DS 18m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 19 Minuten'])::after{content:'DS 19m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 20 Minuten'])::after{content:'DS 20m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 21 Minuten'])::after{content:'DS 21m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 22 Minuten'])::after{content:'DS 22m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 23 Minuten'])::after{content:'DS 23m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 24 Minuten'])::after{content:'DS 24m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 25 Minuten'])::after{content:'DS 25m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 26 Minuten'])::after{content:'DS 26m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 27 Minuten'])::after{content:'DS 27m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 28 Minuten'])::after{content:'DS 28m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 29 Minuten'])::after{content:'DS 29m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 30 Minuten'])::after{content:'DS 30m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 31 Minuten'])::after{content:'DS 31m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 32 Minuten'])::after{content:'DS 32m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 33 Minuten'])::after{content:'DS 33m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 34 Minuten'])::after{content:'DS 34m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 35 Minuten'])::after{content:'DS 35m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 36 Minuten'])::after{content:'DS 36m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 37 Minuten'])::after{content:'DS 37m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 38 Minuten'])::after{content:'DS 38m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 39 Minuten'])::after{content:'DS 39m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 40 Minuten'])::after{content:'DS 40m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 41 Minuten'])::after{content:'DS 41m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 42 Minuten'])::after{content:'DS 42m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 43 Minuten'])::after{content:'DS 43m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 44 Minuten'])::after{content:'DS 44m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 45 Minuten'])::after{content:'DS 45m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 46 Minuten'])::after{content:'DS 46m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 47 Minuten'])::after{content:'DS 47m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 48 Minuten'])::after{content:'DS 48m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 49 Minuten'])::after{content:'DS 49m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 50 Minuten'])::after{content:'DS 50m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 51 Minuten'])::after{content:'DS 51m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 52 Minuten'])::after{content:'DS 52m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 53 Minuten'])::after{content:'DS 53m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 54 Minuten'])::after{content:'DS 54m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 55 Minuten'])::after{content:'DS 55m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 56 Minuten'])::after{content:'DS 56m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 57 Minuten'])::after{content:'DS 57m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 58 Minuten'])::after{content:'DS 58m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 59 Minuten'])::after{content:'DS 59m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 60 Minuten'])::after{content:'DS 60m';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 1 Stunde'])::after{content:'DS 1h';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 2 Stunden'])::after{content:'DS 2h';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 3 Stunden'])::after{content:'DS 3h';}
+#listrow_special span:has(a[data-cooldown][title*='Drehscheibe wieder einsetzbar in 4 Stunden'])::after{content:'DS 4h';}
+
+/* ── AD (Arbeitsdrang, special_id=21) + TW (Titanwaffen, special_id=22) ── */
+/* TW extended: was 1–45m, now 1–60m + 1h */
+#listrow_special a[href*='special_id=21'][title*='in 1 Minute']::after{content:'AD 1m';}
+#listrow_special a[href*='special_id=21'][title*='in 2 Minuten']::after{content:'AD 2m';}
+#listrow_special a[href*='special_id=21'][title*='in 3 Minuten']::after{content:'AD 3m';}
+#listrow_special a[href*='special_id=21'][title*='in 4 Minuten']::after{content:'AD 4m';}
+#listrow_special a[href*='special_id=21'][title*='in 5 Minuten']::after{content:'AD 5m';}
+#listrow_special a[href*='special_id=21'][title*='in 6 Minuten']::after{content:'AD 6m';}
+#listrow_special a[href*='special_id=21'][title*='in 7 Minuten']::after{content:'AD 7m';}
+#listrow_special a[href*='special_id=21'][title*='in 8 Minuten']::after{content:'AD 8m';}
+#listrow_special a[href*='special_id=21'][title*='in 9 Minuten']::after{content:'AD 9m';}
+#listrow_special a[href*='special_id=21'][title*='in 10 Minuten']::after{content:'AD 10m';}
+#listrow_special a[href*='special_id=21'][title*='in 11 Minuten']::after{content:'AD 11m';}
+#listrow_special a[href*='special_id=21'][title*='in 12 Minuten']::after{content:'AD 12m';}
+#listrow_special a[href*='special_id=21'][title*='in 13 Minuten']::after{content:'AD 13m';}
+#listrow_special a[href*='special_id=21'][title*='in 14 Minuten']::after{content:'AD 14m';}
+#listrow_special a[href*='special_id=21'][title*='in 15 Minuten']::after{content:'AD 15m';}
+#listrow_special a[href*='special_id=21'][title*='in 16 Minuten']::after{content:'AD 16m';}
+#listrow_special a[href*='special_id=21'][title*='in 17 Minuten']::after{content:'AD 17m';}
+#listrow_special a[href*='special_id=21'][title*='in 18 Minuten']::after{content:'AD 18m';}
+#listrow_special a[href*='special_id=21'][title*='in 19 Minuten']::after{content:'AD 19m';}
+#listrow_special a[href*='special_id=21'][title*='in 20 Minuten']::after{content:'AD 20m';}
+#listrow_special a[href*='special_id=21'][title*='in 21 Minuten']::after{content:'AD 21m';}
+#listrow_special a[href*='special_id=21'][title*='in 22 Minuten']::after{content:'AD 22m';}
+#listrow_special a[href*='special_id=21'][title*='in 23 Minuten']::after{content:'AD 23m';}
+#listrow_special a[href*='special_id=21'][title*='in 24 Minuten']::after{content:'AD 24m';}
+#listrow_special a[href*='special_id=21'][title*='in 25 Minuten']::after{content:'AD 25m';}
+#listrow_special a[href*='special_id=21'][title*='in 26 Minuten']::after{content:'AD 26m';}
+#listrow_special a[href*='special_id=21'][title*='in 27 Minuten']::after{content:'AD 27m';}
+#listrow_special a[href*='special_id=21'][title*='in 28 Minuten']::after{content:'AD 28m';}
+#listrow_special a[href*='special_id=21'][title*='in 29 Minuten']::after{content:'AD 29m';}
+#listrow_special a[href*='special_id=21'][title*='in 30 Minuten']::after{content:'AD 30m';}
+#listrow_special a[href*='special_id=21'][title*='in 31 Minuten']::after{content:'AD 31m';}
+#listrow_special a[href*='special_id=21'][title*='in 32 Minuten']::after{content:'AD 32m';}
+#listrow_special a[href*='special_id=21'][title*='in 33 Minuten']::after{content:'AD 33m';}
+#listrow_special a[href*='special_id=21'][title*='in 34 Minuten']::after{content:'AD 34m';}
+#listrow_special a[href*='special_id=21'][title*='in 35 Minuten']::after{content:'AD 35m';}
+#listrow_special a[href*='special_id=21'][title*='in 36 Minuten']::after{content:'AD 36m';}
+#listrow_special a[href*='special_id=21'][title*='in 37 Minuten']::after{content:'AD 37m';}
+#listrow_special a[href*='special_id=21'][title*='in 38 Minuten']::after{content:'AD 38m';}
+#listrow_special a[href*='special_id=21'][title*='in 39 Minuten']::after{content:'AD 39m';}
+#listrow_special a[href*='special_id=21'][title*='in 40 Minuten']::after{content:'AD 40m';}
+#listrow_special a[href*='special_id=21'][title*='in 41 Minuten']::after{content:'AD 41m';}
+#listrow_special a[href*='special_id=21'][title*='in 42 Minuten']::after{content:'AD 42m';}
+#listrow_special a[href*='special_id=21'][title*='in 43 Minuten']::after{content:'AD 43m';}
+#listrow_special a[href*='special_id=21'][title*='in 44 Minuten']::after{content:'AD 44m';}
+#listrow_special a[href*='special_id=21'][title*='in 45 Minuten']::after{content:'AD 45m';}
+#listrow_special a[href*='special_id=21'][title*='in 46 Minuten']::after{content:'AD 46m';}
+#listrow_special a[href*='special_id=21'][title*='in 47 Minuten']::after{content:'AD 47m';}
+#listrow_special a[href*='special_id=21'][title*='in 48 Minuten']::after{content:'AD 48m';}
+#listrow_special a[href*='special_id=21'][title*='in 49 Minuten']::after{content:'AD 49m';}
+#listrow_special a[href*='special_id=21'][title*='in 50 Minuten']::after{content:'AD 50m';}
+#listrow_special a[href*='special_id=21'][title*='in 51 Minuten']::after{content:'AD 51m';}
+#listrow_special a[href*='special_id=21'][title*='in 52 Minuten']::after{content:'AD 52m';}
+#listrow_special a[href*='special_id=21'][title*='in 53 Minuten']::after{content:'AD 53m';}
+#listrow_special a[href*='special_id=21'][title*='in 54 Minuten']::after{content:'AD 54m';}
+#listrow_special a[href*='special_id=21'][title*='in 55 Minuten']::after{content:'AD 55m';}
+#listrow_special a[href*='special_id=21'][title*='in 56 Minuten']::after{content:'AD 56m';}
+#listrow_special a[href*='special_id=21'][title*='in 57 Minuten']::after{content:'AD 57m';}
+#listrow_special a[href*='special_id=21'][title*='in 58 Minuten']::after{content:'AD 58m';}
+#listrow_special a[href*='special_id=21'][title*='in 59 Minuten']::after{content:'AD 59m';}
+#listrow_special a[href*='special_id=21'][title*='in 60 Minuten']::after{content:'AD 1h';}
+#listrow_special a[href*='special_id=21'][title*='in 1 Stunde']::after{content:'AD 1h';}
+
+#listrow_special a[href*='special_id=22'][title*='in 1 Minute']::after{content:'TW 1m';}
+#listrow_special a[href*='special_id=22'][title*='in 2 Minuten']::after{content:'TW 2m';}
+#listrow_special a[href*='special_id=22'][title*='in 3 Minuten']::after{content:'TW 3m';}
+#listrow_special a[href*='special_id=22'][title*='in 4 Minuten']::after{content:'TW 4m';}
+#listrow_special a[href*='special_id=22'][title*='in 5 Minuten']::after{content:'TW 5m';}
+#listrow_special a[href*='special_id=22'][title*='in 6 Minuten']::after{content:'TW 6m';}
+#listrow_special a[href*='special_id=22'][title*='in 7 Minuten']::after{content:'TW 7m';}
+#listrow_special a[href*='special_id=22'][title*='in 8 Minuten']::after{content:'TW 8m';}
+#listrow_special a[href*='special_id=22'][title*='in 9 Minuten']::after{content:'TW 9m';}
+#listrow_special a[href*='special_id=22'][title*='in 10 Minuten']::after{content:'TW 10m';}
+#listrow_special a[href*='special_id=22'][title*='in 11 Minuten']::after{content:'TW 11m';}
+#listrow_special a[href*='special_id=22'][title*='in 12 Minuten']::after{content:'TW 12m';}
+#listrow_special a[href*='special_id=22'][title*='in 13 Minuten']::after{content:'TW 13m';}
+#listrow_special a[href*='special_id=22'][title*='in 14 Minuten']::after{content:'TW 14m';}
+#listrow_special a[href*='special_id=22'][title*='in 15 Minuten']::after{content:'TW 15m';}
+#listrow_special a[href*='special_id=22'][title*='in 16 Minuten']::after{content:'TW 16m';}
+#listrow_special a[href*='special_id=22'][title*='in 17 Minuten']::after{content:'TW 17m';}
+#listrow_special a[href*='special_id=22'][title*='in 18 Minuten']::after{content:'TW 18m';}
+#listrow_special a[href*='special_id=22'][title*='in 19 Minuten']::after{content:'TW 19m';}
+#listrow_special a[href*='special_id=22'][title*='in 20 Minuten']::after{content:'TW 20m';}
+#listrow_special a[href*='special_id=22'][title*='in 21 Minuten']::after{content:'TW 21m';}
+#listrow_special a[href*='special_id=22'][title*='in 22 Minuten']::after{content:'TW 22m';}
+#listrow_special a[href*='special_id=22'][title*='in 23 Minuten']::after{content:'TW 23m';}
+#listrow_special a[href*='special_id=22'][title*='in 24 Minuten']::after{content:'TW 24m';}
+#listrow_special a[href*='special_id=22'][title*='in 25 Minuten']::after{content:'TW 25m';}
+#listrow_special a[href*='special_id=22'][title*='in 26 Minuten']::after{content:'TW 26m';}
+#listrow_special a[href*='special_id=22'][title*='in 27 Minuten']::after{content:'TW 27m';}
+#listrow_special a[href*='special_id=22'][title*='in 28 Minuten']::after{content:'TW 28m';}
+#listrow_special a[href*='special_id=22'][title*='in 29 Minuten']::after{content:'TW 29m';}
+#listrow_special a[href*='special_id=22'][title*='in 30 Minuten']::after{content:'TW 30m';}
+#listrow_special a[href*='special_id=22'][title*='in 31 Minuten']::after{content:'TW 31m';}
+#listrow_special a[href*='special_id=22'][title*='in 32 Minuten']::after{content:'TW 32m';}
+#listrow_special a[href*='special_id=22'][title*='in 33 Minuten']::after{content:'TW 33m';}
+#listrow_special a[href*='special_id=22'][title*='in 34 Minuten']::after{content:'TW 34m';}
+#listrow_special a[href*='special_id=22'][title*='in 35 Minuten']::after{content:'TW 35m';}
+#listrow_special a[href*='special_id=22'][title*='in 36 Minuten']::after{content:'TW 36m';}
+#listrow_special a[href*='special_id=22'][title*='in 37 Minuten']::after{content:'TW 37m';}
+#listrow_special a[href*='special_id=22'][title*='in 38 Minuten']::after{content:'TW 38m';}
+#listrow_special a[href*='special_id=22'][title*='in 39 Minuten']::after{content:'TW 39m';}
+#listrow_special a[href*='special_id=22'][title*='in 40 Minuten']::after{content:'TW 40m';}
+#listrow_special a[href*='special_id=22'][title*='in 41 Minuten']::after{content:'TW 41m';}
+#listrow_special a[href*='special_id=22'][title*='in 42 Minuten']::after{content:'TW 42m';}
+#listrow_special a[href*='special_id=22'][title*='in 43 Minuten']::after{content:'TW 43m';}
+#listrow_special a[href*='special_id=22'][title*='in 44 Minuten']::after{content:'TW 44m';}
+#listrow_special a[href*='special_id=22'][title*='in 45 Minuten']::after{content:'TW 45m';}
+#listrow_special a[href*='special_id=22'][title*='in 46 Minuten']::after{content:'TW 46m';}
+#listrow_special a[href*='special_id=22'][title*='in 47 Minuten']::after{content:'TW 47m';}
+#listrow_special a[href*='special_id=22'][title*='in 48 Minuten']::after{content:'TW 48m';}
+#listrow_special a[href*='special_id=22'][title*='in 49 Minuten']::after{content:'TW 49m';}
+#listrow_special a[href*='special_id=22'][title*='in 50 Minuten']::after{content:'TW 50m';}
+#listrow_special a[href*='special_id=22'][title*='in 51 Minuten']::after{content:'TW 51m';}
+#listrow_special a[href*='special_id=22'][title*='in 52 Minuten']::after{content:'TW 52m';}
+#listrow_special a[href*='special_id=22'][title*='in 53 Minuten']::after{content:'TW 53m';}
+#listrow_special a[href*='special_id=22'][title*='in 54 Minuten']::after{content:'TW 54m';}
+#listrow_special a[href*='special_id=22'][title*='in 55 Minuten']::after{content:'TW 55m';}
+#listrow_special a[href*='special_id=22'][title*='in 56 Minuten']::after{content:'TW 56m';}
+#listrow_special a[href*='special_id=22'][title*='in 57 Minuten']::after{content:'TW 57m';}
+#listrow_special a[href*='special_id=22'][title*='in 58 Minuten']::after{content:'TW 58m';}
+#listrow_special a[href*='special_id=22'][title*='in 59 Minuten']::after{content:'TW 59m';}
+#listrow_special a[href*='special_id=22'][title*='in 60 Minuten']::after{content:'TW 1h';}
+#listrow_special a[href*='special_id=22'][title*='in 1 Stunde']::after{content:'TW 1h';}
+
+/* ── BG (Blutgespür, special_id=101) + uM (unkontrollierte Mutation, special_id=102) [Quarren] ── */
+/* BG: max CD 19 min, uM: max CD 30 min. CDs are independent. */
+#listrow_special a[href*='special_id=101'][title*='in 1 Minute']::after{content:'BG 1m';}
+#listrow_special a[href*='special_id=101'][title*='in 2 Minuten']::after{content:'BG 2m';}
+#listrow_special a[href*='special_id=101'][title*='in 3 Minuten']::after{content:'BG 3m';}
+#listrow_special a[href*='special_id=101'][title*='in 4 Minuten']::after{content:'BG 4m';}
+#listrow_special a[href*='special_id=101'][title*='in 5 Minuten']::after{content:'BG 5m';}
+#listrow_special a[href*='special_id=101'][title*='in 6 Minuten']::after{content:'BG 6m';}
+#listrow_special a[href*='special_id=101'][title*='in 7 Minuten']::after{content:'BG 7m';}
+#listrow_special a[href*='special_id=101'][title*='in 8 Minuten']::after{content:'BG 8m';}
+#listrow_special a[href*='special_id=101'][title*='in 9 Minuten']::after{content:'BG 9m';}
+#listrow_special a[href*='special_id=101'][title*='in 10 Minuten']::after{content:'BG 10m';}
+#listrow_special a[href*='special_id=101'][title*='in 11 Minuten']::after{content:'BG 11m';}
+#listrow_special a[href*='special_id=101'][title*='in 12 Minuten']::after{content:'BG 12m';}
+#listrow_special a[href*='special_id=101'][title*='in 13 Minuten']::after{content:'BG 13m';}
+#listrow_special a[href*='special_id=101'][title*='in 14 Minuten']::after{content:'BG 14m';}
+#listrow_special a[href*='special_id=101'][title*='in 15 Minuten']::after{content:'BG 15m';}
+#listrow_special a[href*='special_id=101'][title*='in 16 Minuten']::after{content:'BG 16m';}
+#listrow_special a[href*='special_id=101'][title*='in 17 Minuten']::after{content:'BG 17m';}
+#listrow_special a[href*='special_id=101'][title*='in 18 Minuten']::after{content:'BG 18m';}
+#listrow_special a[href*='special_id=101'][title*='in 19 Minuten']::after{content:'BG 19m';}
+
+#listrow_special a[href*='special_id=102'][title*='in 1 Minute']::after{content:'uM 1m';}
+#listrow_special a[href*='special_id=102'][title*='in 2 Minuten']::after{content:'uM 2m';}
+#listrow_special a[href*='special_id=102'][title*='in 3 Minuten']::after{content:'uM 3m';}
+#listrow_special a[href*='special_id=102'][title*='in 4 Minuten']::after{content:'uM 4m';}
+#listrow_special a[href*='special_id=102'][title*='in 5 Minuten']::after{content:'uM 5m';}
+#listrow_special a[href*='special_id=102'][title*='in 6 Minuten']::after{content:'uM 6m';}
+#listrow_special a[href*='special_id=102'][title*='in 7 Minuten']::after{content:'uM 7m';}
+#listrow_special a[href*='special_id=102'][title*='in 8 Minuten']::after{content:'uM 8m';}
+#listrow_special a[href*='special_id=102'][title*='in 9 Minuten']::after{content:'uM 9m';}
+#listrow_special a[href*='special_id=102'][title*='in 10 Minuten']::after{content:'uM 10m';}
+#listrow_special a[href*='special_id=102'][title*='in 11 Minuten']::after{content:'uM 11m';}
+#listrow_special a[href*='special_id=102'][title*='in 12 Minuten']::after{content:'uM 12m';}
+#listrow_special a[href*='special_id=102'][title*='in 13 Minuten']::after{content:'uM 13m';}
+#listrow_special a[href*='special_id=102'][title*='in 14 Minuten']::after{content:'uM 14m';}
+#listrow_special a[href*='special_id=102'][title*='in 15 Minuten']::after{content:'uM 15m';}
+#listrow_special a[href*='special_id=102'][title*='in 16 Minuten']::after{content:'uM 16m';}
+#listrow_special a[href*='special_id=102'][title*='in 17 Minuten']::after{content:'uM 17m';}
+#listrow_special a[href*='special_id=102'][title*='in 18 Minuten']::after{content:'uM 18m';}
+#listrow_special a[href*='special_id=102'][title*='in 19 Minuten']::after{content:'uM 19m';}
+#listrow_special a[href*='special_id=102'][title*='in 20 Minuten']::after{content:'uM 20m';}
+#listrow_special a[href*='special_id=102'][title*='in 21 Minuten']::after{content:'uM 21m';}
+#listrow_special a[href*='special_id=102'][title*='in 22 Minuten']::after{content:'uM 22m';}
+#listrow_special a[href*='special_id=102'][title*='in 23 Minuten']::after{content:'uM 23m';}
+#listrow_special a[href*='special_id=102'][title*='in 24 Minuten']::after{content:'uM 24m';}
+#listrow_special a[href*='special_id=102'][title*='in 25 Minuten']::after{content:'uM 25m';}
+#listrow_special a[href*='special_id=102'][title*='in 26 Minuten']::after{content:'uM 26m';}
+#listrow_special a[href*='special_id=102'][title*='in 27 Minuten']::after{content:'uM 27m';}
+#listrow_special a[href*='special_id=102'][title*='in 28 Minuten']::after{content:'uM 28m';}
+#listrow_special a[href*='special_id=102'][title*='in 29 Minuten']::after{content:'uM 29m';}
+#listrow_special a[href*='special_id=102'][title*='in 30 Minuten']::after{content:'uM 30m';}
+
+/* Herrschaft → Turm */
+#link_tower { font-size: 0; }
+#link_tower::after { content: 'Turm'; font-size: 12px; }
