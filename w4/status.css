@@ -520,10 +520,13 @@
      Quarren labels GG / uM (active) / I+  ::before labels + custom ::after
 ════════════════════════════════════════════════════════════════════════════ */
 
-/* ── Serum / Mensch-Arbeiter labels (overrides/additions to style.css) ─── */
-/* Note: SS already in style.css, kept here for the <a> link override */
-#listrow_status span[title^='Seelensprung']:before {content: "SS |"; font-weight: bold; font-size: 10px;}
-#listrow_status span[title^='Seelensprung'] a {font-size: 10px !important; padding-left: 1px;}
+/* ── Serum / Mensch-Arbeiter labels (overrides/additions to style.css) ───
+   SS label + clickable-overlay <a> already handled above (lines ~67-69):
+     #listrow_status span[title^='Seelensprung']:before {content: "SS |"; ...}
+     #listrow_status span[title^='Seelensprung'] { position: relative; }
+     #listrow_status span[title^='Seelensprung'] a { font-size:0 !important; position:absolute; inset:0; display:block; }
+   Removed duplicate ::before + conflicting `a {font-size:10px}` rule that
+   used to make "Deaktivieren"/"Aktivieren" render visibly on top of the pill. */
 #listrow_status span[title^='Geisterform']:before {content: "GF |"; font-weight: bold; font-size: 10px;}
 #listrow_status span[title^='Arbeitsdrang']:before {content: "AD |"; font-weight: bold; font-size: 10px;}
 #listrow_status span[title^='Titanwaffen']:before {content: "TW |"; font-weight: bold; font-size: 10px;}
