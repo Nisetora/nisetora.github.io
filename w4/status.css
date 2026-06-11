@@ -65,8 +65,9 @@
 #listrow_status span[title^='Archäologe']:before {content: "⛏ |"; font-weight: bold; font-size: 10px;}
 #listrow_status span[title^='Goldduft']:before {content: "GD"; font-weight: bold; font-size: 10px;}
 #listrow_status span[title^='Seelensprung']:before {content: "SS |"; font-weight: bold; font-size: 10px;}
-#listrow_status span[title^='Seelensprung'] { position: relative; }
-#listrow_status span[title^='Seelensprung'] a { font-size: 0 !important; position: absolute; left: 0; top: 0; right: 0; bottom: 0; display: block; }
+/* Toggle link rendered inline (normal flow) at pill font-size, after the "SS |" label
+   and before the duration ::after — avoids the absolute-overlay overlap bug. */
+#listrow_status span[title^='Seelensprung'] a { font-size: 10px !important; font-weight: bold; padding-left: 1px; }
 #listrow_status span[title^='Trank der Waldpflanzensicht']:before {content: "PS"; font-weight: bold; font-size: 10px; }
 #listrow_status span[title^='Überladen']:before {content: "ÜL"; font-weight: bold; font-size: 10px; }
 /* Phasenzeug */
