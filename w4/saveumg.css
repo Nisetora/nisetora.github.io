@@ -2,7 +2,7 @@
 
 /* =======================================================================
    saveumg.css -- Terrain/environment SVG overlays on map tiles
-   Updated: 2026-07-08T10:30:21Z
+   Updated: 2026-07-08T11:35:21Z
    Loaded via @import from style.css
    GENERATED -- do not edit SVG groups by hand.
    To update angelstellen: trigger a push from fwcalc.
@@ -26,20 +26,20 @@
     content: url(../umgs/U_f.svg); z-index:1; width:50px; position:absolute; margin-left:0; background:0;
 }
 
-/* U_w.svg -- 99 Felder */
+/* U_w.svg -- 100 Felder */
 #mapx-49003y-49003 a:before,#mapx-19997y-20093 a:before,#mapx-429y-292 a:before,#mapx-426y-298 a:before,#mapx-425y-294 a:before,#mapx-321y-852 a:before,#mapx-319y-854 a:before,#mapx-318y-851 a:before,
 #mapx-290y-721 a:before,#mapx-284y-719 a:before,#mapx-259y-257 a:before,#mapx-231y-368 a:before,#mapx-230y-369 a:before,#mapx-230y-367 a:before,#mapx-230y-366 a:before,#mapx-229y-369 a:before,
 #mapx-229y-368 a:before,#mapx-228y-368 a:before,#mapx-227y-368 a:before,#mapx-227y-366 a:before,#mapx-226y-367 a:before,#mapx-226y-366 a:before,#mapx-177y-271 a:before,#mapx-176y-268 a:before,
 #mapx-175y-275 a:before,#mapx-175y-272 a:before,#mapx-173y-275 a:before,#mapx-171y-276 a:before,#mapx-171y-272 a:before,#mapx-168y-858 a:before,#mapx-165y-857 a:before,#mapx-165y-855 a:before,
 #mapx-164y-855 a:before,#mapx-163y-856 a:before,#mapx-94y-894 a:before,#mapx-93y-894 a:before,#mapx58y106 a:before,#mapx65y109 a:before,#mapx75y83 a:before,#mapx80y117 a:before,
-#mapx84y131 a:before,#mapx88y133 a:before,#mapx89y133 a:before,#mapx94y93 a:before,#mapx97y91 a:before,#mapx99y100 a:before,#mapx100y136 a:before,#mapx107y94 a:before,
-#mapx112y120 a:before,#mapx113y93 a:before,#mapx114y117 a:before,#mapx114y122 a:before,#mapx115y117 a:before,#mapx115y122 a:before,#mapx116y115 a:before,#mapx116y116 a:before,
-#mapx117y108 a:before,#mapx117y116 a:before,#mapx117y117 a:before,#mapx117y120 a:before,#mapx118y104 a:before,#mapx118y106 a:before,#mapx118y107 a:before,#mapx118y111 a:before,
-#mapx118y115 a:before,#mapx118y117 a:before,#mapx120y116 a:before,#mapx120y117 a:before,#mapx121y104 a:before,#mapx121y116 a:before,#mapx122y111 a:before,#mapx122y113 a:before,
-#mapx122y115 a:before,#mapx122y117 a:before,#mapx127y114 a:before,#mapx132y117 a:before,#mapx138y114 a:before,#mapx138y118 a:before,#mapx140y128 a:before,#mapx150y121 a:before,
-#mapx152y120 a:before,#mapx182y137 a:before,#mapx182y138 a:before,#mapx189y134 a:before,#mapx191y136 a:before,#mapx193y136 a:before,#mapx195y136 a:before,#mapx196y136 a:before,
-#mapx198y136 a:before,#mapx199y133 a:before,#mapx203y134 a:before,#mapx205y134 a:before,#mapx1006y1000 a:before,#mapx1008y998 a:before,#mapx1010y994 a:before,#mapx1011y985 a:before,
-#mapx1011y990 a:before,#mapx1011y996 a:before,#mapx1012y988 a:before {
+#mapx81y130 a:before,#mapx84y131 a:before,#mapx88y133 a:before,#mapx89y133 a:before,#mapx94y93 a:before,#mapx97y91 a:before,#mapx99y100 a:before,#mapx100y136 a:before,
+#mapx107y94 a:before,#mapx112y120 a:before,#mapx113y93 a:before,#mapx114y117 a:before,#mapx114y122 a:before,#mapx115y117 a:before,#mapx115y122 a:before,#mapx116y115 a:before,
+#mapx116y116 a:before,#mapx117y108 a:before,#mapx117y116 a:before,#mapx117y117 a:before,#mapx117y120 a:before,#mapx118y104 a:before,#mapx118y106 a:before,#mapx118y107 a:before,
+#mapx118y111 a:before,#mapx118y115 a:before,#mapx118y117 a:before,#mapx120y116 a:before,#mapx120y117 a:before,#mapx121y104 a:before,#mapx121y116 a:before,#mapx122y111 a:before,
+#mapx122y113 a:before,#mapx122y115 a:before,#mapx122y117 a:before,#mapx127y114 a:before,#mapx132y117 a:before,#mapx138y114 a:before,#mapx138y118 a:before,#mapx140y128 a:before,
+#mapx150y121 a:before,#mapx152y120 a:before,#mapx182y137 a:before,#mapx182y138 a:before,#mapx189y134 a:before,#mapx191y136 a:before,#mapx193y136 a:before,#mapx195y136 a:before,
+#mapx196y136 a:before,#mapx198y136 a:before,#mapx199y133 a:before,#mapx203y134 a:before,#mapx205y134 a:before,#mapx1006y1000 a:before,#mapx1008y998 a:before,#mapx1010y994 a:before,
+#mapx1011y985 a:before,#mapx1011y990 a:before,#mapx1011y996 a:before,#mapx1012y988 a:before {
     content: url(../umgs/U_w.svg); z-index:1; width:50px; position:absolute; margin-left:0; background:0;
 }
 
@@ -236,7 +236,7 @@
     content: url(../umgs/U_f_npc.svg); z-index:1; width:50px; position:absolute; margin-left:0; background:0;
 }
 
-/* U_w_npc.svg -- 408 Felder */
+/* U_w_npc.svg -- 407 Felder */
 #mapx-827y-908 a:before,#mapx-826y-915 a:before,#mapx-826y-908 a:before,#mapx-826y-904 a:before,#mapx-826y-903 a:before,#mapx-825y-910 a:before,#mapx-823y-905 a:before,#mapx-645y-148 a:before,
 #mapx-579y-497 a:before,#mapx-578y-497 a:before,#mapx-577y-497 a:before,#mapx-576y-497 a:before,#mapx-575y-497 a:before,#mapx-286y-722 a:before,#mapx-285y-721 a:before,#mapx-285y-719 a:before,
 #mapx-284y-722 a:before,#mapx-284y-721 a:before,#mapx-284y-720 a:before,#mapx-283y-722 a:before,#mapx-250y-249 a:before,#mapx-250y-248 a:before,#mapx-250y-246 a:before,#mapx-249y-250 a:before,
@@ -269,25 +269,25 @@
 #mapx74y127 a:before,#mapx74y128 a:before,#mapx75y118 a:before,#mapx75y119 a:before,#mapx75y120 a:before,#mapx75y121 a:before,#mapx75y122 a:before,#mapx75y123 a:before,
 #mapx75y124 a:before,#mapx75y127 a:before,#mapx75y128 a:before,#mapx76y119 a:before,#mapx76y120 a:before,#mapx76y121 a:before,#mapx76y123 a:before,#mapx76y127 a:before,
 #mapx76y128 a:before,#mapx77y128 a:before,#mapx78y128 a:before,#mapx79y115 a:before,#mapx79y116 a:before,#mapx79y128 a:before,#mapx79y129 a:before,#mapx80y115 a:before,
-#mapx80y116 a:before,#mapx81y114 a:before,#mapx81y115 a:before,#mapx81y116 a:before,#mapx81y117 a:before,#mapx81y130 a:before,#mapx81y136 a:before,#mapx82y114 a:before,
-#mapx82y115 a:before,#mapx82y130 a:before,#mapx83y116 a:before,#mapx83y130 a:before,#mapx84y115 a:before,#mapx84y137 a:before,#mapx85y115 a:before,#mapx85y116 a:before,
-#mapx85y136 a:before,#mapx87y133 a:before,#mapx90y133 a:before,#mapx94y91 a:before,#mapx94y92 a:before,#mapx97y125 a:before,#mapx98y124 a:before,#mapx98y125 a:before,
-#mapx99y125 a:before,#mapx100y105 a:before,#mapx100y124 a:before,#mapx100y135 a:before,#mapx101y99 a:before,#mapx101y106 a:before,#mapx101y123 a:before,#mapx101y135 a:before,
-#mapx101y136 a:before,#mapx102y99 a:before,#mapx102y105 a:before,#mapx102y106 a:before,#mapx102y136 a:before,#mapx103y92 a:before,#mapx103y106 a:before,#mapx103y135 a:before,
-#mapx103y136 a:before,#mapx104y91 a:before,#mapx104y92 a:before,#mapx104y93 a:before,#mapx104y136 a:before,#mapx105y92 a:before,#mapx105y136 a:before,#mapx111y129 a:before,
-#mapx111y130 a:before,#mapx111y131 a:before,#mapx111y132 a:before,#mapx112y94 a:before,#mapx112y130 a:before,#mapx112y131 a:before,#mapx112y132 a:before,#mapx112y133 a:before,
-#mapx113y94 a:before,#mapx113y121 a:before,#mapx113y131 a:before,#mapx113y132 a:before,#mapx113y133 a:before,#mapx113y134 a:before,#mapx114y131 a:before,#mapx114y132 a:before,
-#mapx114y133 a:before,#mapx114y134 a:before,#mapx114y135 a:before,#mapx115y108 a:before,#mapx115y131 a:before,#mapx115y132 a:before,#mapx116y108 a:before,#mapx116y117 a:before,
-#mapx116y122 a:before,#mapx116y134 a:before,#mapx117y121 a:before,#mapx118y108 a:before,#mapx118y119 a:before,#mapx119y104 a:before,#mapx119y122 a:before,#mapx120y92 a:before,
-#mapx120y94 a:before,#mapx120y96 a:before,#mapx120y97 a:before,#mapx120y98 a:before,#mapx120y104 a:before,#mapx120y110 a:before,#mapx121y94 a:before,#mapx121y95 a:before,
-#mapx121y96 a:before,#mapx121y98 a:before,#mapx121y99 a:before,#mapx121y100 a:before,#mapx121y101 a:before,#mapx121y102 a:before,#mapx121y103 a:before,#mapx121y110 a:before,
-#mapx122y92 a:before,#mapx122y99 a:before,#mapx122y100 a:before,#mapx122y101 a:before,#mapx122y102 a:before,#mapx122y112 a:before,#mapx122y116 a:before,#mapx123y114 a:before,
-#mapx126y114 a:before,#mapx131y90 a:before,#mapx135y114 a:before,#mapx135y117 a:before,#mapx135y125 a:before,#mapx135y126 a:before,#mapx135y127 a:before,#mapx136y113 a:before,
-#mapx136y114 a:before,#mapx136y115 a:before,#mapx136y117 a:before,#mapx136y118 a:before,#mapx136y124 a:before,#mapx136y127 a:before,#mapx136y128 a:before,#mapx137y114 a:before,
-#mapx137y115 a:before,#mapx137y116 a:before,#mapx137y117 a:before,#mapx137y118 a:before,#mapx137y123 a:before,#mapx137y124 a:before,#mapx138y115 a:before,#mapx138y122 a:before,
-#mapx138y123 a:before,#mapx138y128 a:before,#mapx139y116 a:before,#mapx139y117 a:before,#mapx139y123 a:before,#mapx139y128 a:before,#mapx141y127 a:before,#mapx145y122 a:before,
-#mapx146y122 a:before,#mapx147y122 a:before,#mapx148y122 a:before,#mapx149y122 a:before,#mapx184y140 a:before,#mapx185y140 a:before,#mapx186y140 a:before,#mapx187y139 a:before,
-#mapx188y139 a:before,#mapx192y136 a:before,#mapx194y136 a:before,#mapx197y136 a:before,#mapx199y135 a:before,#mapx202y134 a:before,#mapx1009y998 a:before,#mapx1010y987 a:before {
+#mapx80y116 a:before,#mapx81y114 a:before,#mapx81y115 a:before,#mapx81y116 a:before,#mapx81y117 a:before,#mapx81y136 a:before,#mapx82y114 a:before,#mapx82y115 a:before,
+#mapx82y130 a:before,#mapx83y116 a:before,#mapx83y130 a:before,#mapx84y115 a:before,#mapx84y137 a:before,#mapx85y115 a:before,#mapx85y116 a:before,#mapx85y136 a:before,
+#mapx87y133 a:before,#mapx90y133 a:before,#mapx94y91 a:before,#mapx94y92 a:before,#mapx97y125 a:before,#mapx98y124 a:before,#mapx98y125 a:before,#mapx99y125 a:before,
+#mapx100y105 a:before,#mapx100y124 a:before,#mapx100y135 a:before,#mapx101y99 a:before,#mapx101y106 a:before,#mapx101y123 a:before,#mapx101y135 a:before,#mapx101y136 a:before,
+#mapx102y99 a:before,#mapx102y105 a:before,#mapx102y106 a:before,#mapx102y136 a:before,#mapx103y92 a:before,#mapx103y106 a:before,#mapx103y135 a:before,#mapx103y136 a:before,
+#mapx104y91 a:before,#mapx104y92 a:before,#mapx104y93 a:before,#mapx104y136 a:before,#mapx105y92 a:before,#mapx105y136 a:before,#mapx111y129 a:before,#mapx111y130 a:before,
+#mapx111y131 a:before,#mapx111y132 a:before,#mapx112y94 a:before,#mapx112y130 a:before,#mapx112y131 a:before,#mapx112y132 a:before,#mapx112y133 a:before,#mapx113y94 a:before,
+#mapx113y121 a:before,#mapx113y131 a:before,#mapx113y132 a:before,#mapx113y133 a:before,#mapx113y134 a:before,#mapx114y131 a:before,#mapx114y132 a:before,#mapx114y133 a:before,
+#mapx114y134 a:before,#mapx114y135 a:before,#mapx115y108 a:before,#mapx115y131 a:before,#mapx115y132 a:before,#mapx116y108 a:before,#mapx116y117 a:before,#mapx116y122 a:before,
+#mapx116y134 a:before,#mapx117y121 a:before,#mapx118y108 a:before,#mapx118y119 a:before,#mapx119y104 a:before,#mapx119y122 a:before,#mapx120y92 a:before,#mapx120y94 a:before,
+#mapx120y96 a:before,#mapx120y97 a:before,#mapx120y98 a:before,#mapx120y104 a:before,#mapx120y110 a:before,#mapx121y94 a:before,#mapx121y95 a:before,#mapx121y96 a:before,
+#mapx121y98 a:before,#mapx121y99 a:before,#mapx121y100 a:before,#mapx121y101 a:before,#mapx121y102 a:before,#mapx121y103 a:before,#mapx121y110 a:before,#mapx122y92 a:before,
+#mapx122y99 a:before,#mapx122y100 a:before,#mapx122y101 a:before,#mapx122y102 a:before,#mapx122y112 a:before,#mapx122y116 a:before,#mapx123y114 a:before,#mapx126y114 a:before,
+#mapx131y90 a:before,#mapx135y114 a:before,#mapx135y117 a:before,#mapx135y125 a:before,#mapx135y126 a:before,#mapx135y127 a:before,#mapx136y113 a:before,#mapx136y114 a:before,
+#mapx136y115 a:before,#mapx136y117 a:before,#mapx136y118 a:before,#mapx136y124 a:before,#mapx136y127 a:before,#mapx136y128 a:before,#mapx137y114 a:before,#mapx137y115 a:before,
+#mapx137y116 a:before,#mapx137y117 a:before,#mapx137y118 a:before,#mapx137y123 a:before,#mapx137y124 a:before,#mapx138y115 a:before,#mapx138y122 a:before,#mapx138y123 a:before,
+#mapx138y128 a:before,#mapx139y116 a:before,#mapx139y117 a:before,#mapx139y123 a:before,#mapx139y128 a:before,#mapx141y127 a:before,#mapx145y122 a:before,#mapx146y122 a:before,
+#mapx147y122 a:before,#mapx148y122 a:before,#mapx149y122 a:before,#mapx184y140 a:before,#mapx185y140 a:before,#mapx186y140 a:before,#mapx187y139 a:before,#mapx188y139 a:before,
+#mapx192y136 a:before,#mapx194y136 a:before,#mapx197y136 a:before,#mapx199y135 a:before,#mapx202y134 a:before,#mapx1009y998 a:before,#mapx1010y987 a:before {
     content: url(../umgs/U_w_npc.svg); z-index:1; width:50px; position:absolute; margin-left:0; background:0;
 }
 
