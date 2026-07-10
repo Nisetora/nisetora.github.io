@@ -2,7 +2,7 @@
 
 /* =======================================================================
    saveumg.css -- Terrain/environment SVG overlays on map tiles
-   Updated: 2026-07-10T07:13:06Z
+   Updated: 2026-07-10T08:15:27Z
    Loaded via @import from style.css
    GENERATED -- do not edit SVG groups by hand.
    To update angelstellen: trigger a push from fwcalc.
@@ -63,8 +63,8 @@
     content: url(../umgs/U_a.svg); z-index:1; width:50px; position:absolute; margin-left:0; background:0;
 }
 
-/* U_fw.svg -- 4 Felder */
-#mapx-799y-282 a:before,#mapx82y137 a:before,#mapx115y135 a:before,#mapx139y114 a:before {
+/* U_fw.svg -- 5 Felder */
+#mapx-799y-282 a:before,#mapx82y137 a:before,#mapx115y135 a:before,#mapx139y114 a:before,#mapx139y117 a:before {
     content: url(../umgs/U_fw.svg); z-index:1; width:50px; position:absolute; margin-left:0; background:0;
 }
 
@@ -236,7 +236,7 @@
     content: url(../umgs/U_f_npc.svg); z-index:1; width:50px; position:absolute; margin-left:0; background:0;
 }
 
-/* U_w_npc.svg -- 405 Felder */
+/* U_w_npc.svg -- 404 Felder */
 #mapx-827y-908 a:before,#mapx-826y-915 a:before,#mapx-826y-908 a:before,#mapx-826y-904 a:before,#mapx-826y-903 a:before,#mapx-825y-910 a:before,#mapx-823y-905 a:before,#mapx-645y-148 a:before,
 #mapx-579y-497 a:before,#mapx-578y-497 a:before,#mapx-577y-497 a:before,#mapx-576y-497 a:before,#mapx-575y-497 a:before,#mapx-286y-722 a:before,#mapx-285y-721 a:before,#mapx-285y-719 a:before,
 #mapx-284y-722 a:before,#mapx-284y-721 a:before,#mapx-284y-720 a:before,#mapx-283y-722 a:before,#mapx-250y-249 a:before,#mapx-250y-248 a:before,#mapx-250y-246 a:before,#mapx-249y-250 a:before,
@@ -285,9 +285,9 @@
 #mapx135y117 a:before,#mapx135y125 a:before,#mapx135y126 a:before,#mapx135y127 a:before,#mapx136y113 a:before,#mapx136y114 a:before,#mapx136y115 a:before,#mapx136y117 a:before,
 #mapx136y118 a:before,#mapx136y124 a:before,#mapx136y127 a:before,#mapx136y128 a:before,#mapx137y114 a:before,#mapx137y115 a:before,#mapx137y116 a:before,#mapx137y117 a:before,
 #mapx137y118 a:before,#mapx137y123 a:before,#mapx137y124 a:before,#mapx138y115 a:before,#mapx138y122 a:before,#mapx138y123 a:before,#mapx138y128 a:before,#mapx139y116 a:before,
-#mapx139y117 a:before,#mapx139y123 a:before,#mapx139y128 a:before,#mapx141y127 a:before,#mapx145y122 a:before,#mapx146y122 a:before,#mapx147y122 a:before,#mapx148y122 a:before,
-#mapx149y122 a:before,#mapx184y140 a:before,#mapx185y140 a:before,#mapx186y140 a:before,#mapx187y139 a:before,#mapx188y139 a:before,#mapx192y136 a:before,#mapx194y136 a:before,
-#mapx197y136 a:before,#mapx199y135 a:before,#mapx202y134 a:before,#mapx1009y998 a:before,#mapx1010y987 a:before {
+#mapx139y123 a:before,#mapx139y128 a:before,#mapx141y127 a:before,#mapx145y122 a:before,#mapx146y122 a:before,#mapx147y122 a:before,#mapx148y122 a:before,#mapx149y122 a:before,
+#mapx184y140 a:before,#mapx185y140 a:before,#mapx186y140 a:before,#mapx187y139 a:before,#mapx188y139 a:before,#mapx192y136 a:before,#mapx194y136 a:before,#mapx197y136 a:before,
+#mapx199y135 a:before,#mapx202y134 a:before,#mapx1009y998 a:before,#mapx1010y987 a:before {
     content: url(../umgs/U_w_npc.svg); z-index:1; width:50px; position:absolute; margin-left:0; background:0;
 }
 
