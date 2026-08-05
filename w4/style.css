@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("npc.css?v=20260805131936");
+@import url("npc.css?v=20260805140130");
 @import url("saveumg.css");
 @import url("style_alex_inventory.css");
 @import url("status.css");
@@ -541,19 +541,20 @@ img[src$="spindel3.gif"] { background: rgba(255, 252,  89, 0.76) !important; bor
    Relative URLs fixed → absolute nuhp.de URLs.
    ════════════════════════════════════════════════════════════════════════════ */
 
-/* Runenpuzzle: Bilder durch Zahlen ersetzen */
+/* Runenpuzzle: Bilder durch Zahlen ersetzen (inline SVG — no external dependency) */
 img[src$="minigame/a1.gif"], img[src$="minigame/a2.gif"], img[src$="minigame/a3.gif"],
 img[src$="minigame/a4.gif"], img[src$="minigame/a5.gif"], img[src$="minigame/a6.gif"] {
-    background-repeat: no-repeat; background-position: top left;
-    width: 0px; height: 40px; padding-left: 40px;
-    display: inline-block; overflow: hidden;
+    background-repeat: no-repeat !important; background-position: top left !important;
+    background-size: 40px 40px !important;
+    width: 0px !important; height: 40px !important; padding-left: 40px !important;
+    display: inline-block !important; overflow: hidden !important;
 }
-img[src$="minigame/a1.gif"] { background-image: url(https://nuhp.de/pics/rp1.png); }
-img[src$="minigame/a2.gif"] { background-image: url(https://nuhp.de/pics/rp2.png); }
-img[src$="minigame/a3.gif"] { background-image: url(https://nuhp.de/pics/rp3.png); }
-img[src$="minigame/a4.gif"] { background-image: url(https://nuhp.de/pics/rp4.png); }
-img[src$="minigame/a5.gif"] { background-image: url(https://nuhp.de/pics/rp5.png); }
-img[src$="minigame/a6.gif"] { background-image: url(https://nuhp.de/pics/rp6.png); }
+img[src$="minigame/a1.gif"] { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40'%3E%3Crect width='40' height='40' fill='%23297695' rx='3'/%3E%3Ctext x='20' y='29' text-anchor='middle' font-size='26' fill='white' font-weight='bold' font-family='Arial,sans-serif'%3E1%3C/text%3E%3C/svg%3E"); }
+img[src$="minigame/a2.gif"] { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40'%3E%3Crect width='40' height='40' fill='%23297695' rx='3'/%3E%3Ctext x='20' y='29' text-anchor='middle' font-size='26' fill='white' font-weight='bold' font-family='Arial,sans-serif'%3E2%3C/text%3E%3C/svg%3E"); }
+img[src$="minigame/a3.gif"] { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40'%3E%3Crect width='40' height='40' fill='%23297695' rx='3'/%3E%3Ctext x='20' y='29' text-anchor='middle' font-size='26' fill='white' font-weight='bold' font-family='Arial,sans-serif'%3E3%3C/text%3E%3C/svg%3E"); }
+img[src$="minigame/a4.gif"] { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40'%3E%3Crect width='40' height='40' fill='%23297695' rx='3'/%3E%3Ctext x='20' y='29' text-anchor='middle' font-size='26' fill='white' font-weight='bold' font-family='Arial,sans-serif'%3E4%3C/text%3E%3C/svg%3E"); }
+img[src$="minigame/a5.gif"] { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40'%3E%3Crect width='40' height='40' fill='%23297695' rx='3'/%3E%3Ctext x='20' y='29' text-anchor='middle' font-size='26' fill='white' font-weight='bold' font-family='Arial,sans-serif'%3E5%3C/text%3E%3C/svg%3E"); }
+img[src$="minigame/a6.gif"] { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40'%3E%3Crect width='40' height='40' fill='%23297695' rx='3'/%3E%3Ctext x='20' y='29' text-anchor='middle' font-size='26' fill='white' font-weight='bold' font-family='Arial,sans-serif'%3E6%3C/text%3E%3C/svg%3E"); }
 
 /* Puzzle Helper numbered overlays */
 .pic1:before  { content: "1";  width: 31px!important; height: 31px!important; position: relative; background: #00000073; display: inline-block; padding: 0; text-align: center; font-weight: 700; font-size: 20px; border: 1px solid #ffffff3d; line-height: 1.5; color: #ffffff9e; }
