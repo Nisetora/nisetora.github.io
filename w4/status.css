@@ -519,6 +519,7 @@
    This file adds:
      Serum labels   SS / GF (Geisterform-Serum) / AD / TW  ::before labels
      Quarren labels GG / uM (active) / I+  ::before labels + custom ::after
+     Mensch-Kämpfer MG (Muskelgedächtnis) / WR (Wutrausch)  ::before labels
 ════════════════════════════════════════════════════════════════════════════ */
 
 /* ── Serum / Mensch-Arbeiter labels (overrides/additions to style.css) ───
@@ -618,3 +619,18 @@
 #listrow_status span[title^='Intelligenz +'][title$='(58 Minuten)']::after{content:' 58m'; font-size:10px !important;}
 #listrow_status span[title^='Intelligenz +'][title$='(59 Minuten)']::after{content:' 59m'; font-size:10px !important;}
 #listrow_status span[title^='Intelligenz +'][title$='(60 Minuten)']::after{content:' 60m'; font-size:10px !important;}
+
+/* ── Mensch-Kämpfer labels ───────────────────────────────────────────────── */
+
+/* MG — Muskelgedächtnis (Spezi special_id=11, active effect up to 20 min)
+   Title format: "Muskelgedächtnis (Noch X Minuten)".
+   The generic duration rules above already cover both title formats —
+   "(Noch X Minuten)" and "(X Minuten)" — for 1–61 min, including the
+   \25f7 blink warning at <= 5 min. Adding scoped ::after rules here would
+   outrank those and silently kill the blink, so only the label is defined. */
+#listrow_status span[title^='Muskelgedächtnis']:before {content: "MG |"; font-weight: bold; font-size: 10px;}
+
+/* WR — Wutrausch (Spezi special_id=12, active effect up to 10 min)
+   Same title format and same reasoning as MG — duration comes from the
+   generic rules, only the ::before label is new here. */
+#listrow_status span[title^='Wutrausch']:before {content: "WR |"; font-weight: bold; font-size: 10px;}
