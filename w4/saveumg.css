@@ -2,7 +2,7 @@
 
 /* =======================================================================
    saveumg.css -- Terrain/environment SVG overlays on map tiles
-   Updated: 2026-10-08T16:12:37Z
+   Updated: 2026-10-08T17:13:30Z
    Loaded via @import from style.css
    GENERATED -- do not edit SVG groups by hand.
    To update angelstellen: trigger a push from fwcalc.
@@ -69,9 +69,9 @@
     content: url(../umgs/U_a.svg); z-index:1; width:50px; position:absolute; margin-left:0; background:0;
 }
 
-/* U_fw.svg -- 9 Felder */
-#mapx-799y-282 a:before,#mapx-322y-851 a:before,#mapx81y136 a:before,#mapx82y137 a:before,#mapx105y92 a:before,#mapx115y135 a:before,#mapx135y117 a:before,#mapx139y114 a:before,
-#mapx139y117 a:before {
+/* U_fw.svg -- 10 Felder */
+#mapx-799y-282 a:before,#mapx-322y-851 a:before,#mapx81y136 a:before,#mapx82y137 a:before,#mapx105y92 a:before,#mapx115y135 a:before,#mapx133y117 a:before,#mapx135y117 a:before,
+#mapx139y114 a:before,#mapx139y117 a:before {
     content: url(../umgs/U_fw.svg); z-index:1; width:50px; position:absolute; margin-left:0; background:0;
 }
 
@@ -352,12 +352,12 @@
     content: url(../umgs/U_a_npc.svg); z-index:1; width:50px; position:absolute; margin-left:0; background:0;
 }
 
-/* U_fw_npc.svg -- 38 Felder */
+/* U_fw_npc.svg -- 37 Felder */
 #mapx37y96 a:before,#mapx37y97 a:before,#mapx37y98 a:before,#mapx37y99 a:before,#mapx56y105 a:before,#mapx57y107 a:before,#mapx75y99 a:before,#mapx117y85 a:before,
 #mapx118y83 a:before,#mapx118y85 a:before,#mapx119y85 a:before,#mapx120y86 a:before,#mapx120y89 a:before,#mapx120y95 a:before,#mapx121y80 a:before,#mapx121y81 a:before,
-#mapx122y81 a:before,#mapx123y82 a:before,#mapx123y86 a:before,#mapx123y87 a:before,#mapx124y81 a:before,#mapx131y88 a:before,#mapx133y117 a:before,#mapx136y116 a:before,
-#mapx151y120 a:before,#mapx153y119 a:before,#mapx153y120 a:before,#mapx183y136 a:before,#mapx183y137 a:before,#mapx188y131 a:before,#mapx189y132 a:before,#mapx190y134 a:before,
-#mapx198y131 a:before,#mapx198y134 a:before,#mapx199y132 a:before,#mapx202y132 a:before,#mapx203y132 a:before,#mapx204y133 a:before {
+#mapx122y81 a:before,#mapx123y82 a:before,#mapx123y86 a:before,#mapx123y87 a:before,#mapx124y81 a:before,#mapx131y88 a:before,#mapx136y116 a:before,#mapx151y120 a:before,
+#mapx153y119 a:before,#mapx153y120 a:before,#mapx183y136 a:before,#mapx183y137 a:before,#mapx188y131 a:before,#mapx189y132 a:before,#mapx190y134 a:before,#mapx198y131 a:before,
+#mapx198y134 a:before,#mapx199y132 a:before,#mapx202y132 a:before,#mapx203y132 a:before,#mapx204y133 a:before {
     content: url(../umgs/U_fw_npc.svg); z-index:1; width:50px; position:absolute; margin-left:0; background:0;
 }
 
