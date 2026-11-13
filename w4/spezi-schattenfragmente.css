@@ -1,0 +1,62 @@
+/* === Schattenfragmente (dunkler Magier) === */
+/* ── SF: Schattenfragmente (dunkler Magier) ─────────────────────────────────
+   Pool 0-50, always visible. The amount only exists in the title of the
+   circle link (<a href="item.php?action=special" title="27 / 50 Schattenfragmente
+   Drehscheibe ...">), so one rule per value (same technique as the CD labels).
+   Uses span:has() like DS. Label goes into ::before because the DS label
+   already owns ::after of the same span.
+*/
+#listrow_special span:has(> a[href*='action=special'][title*='Schattenfragmente'])::before {
+    content: 'SF ?/50'; font-size: 9px; color: #555; font-weight: bold; margin-right: 3px;
+}
+#listrow_special span:has(> a[href*='action=special'][title^='0 / 50 Schattenfragmente'])::before{content:'SF 0/50';}
+#listrow_special span:has(> a[href*='action=special'][title^='1 / 50 Schattenfragmente'])::before{content:'SF 1/50';}
+#listrow_special span:has(> a[href*='action=special'][title^='2 / 50 Schattenfragmente'])::before{content:'SF 2/50';}
+#listrow_special span:has(> a[href*='action=special'][title^='3 / 50 Schattenfragmente'])::before{content:'SF 3/50';}
+#listrow_special span:has(> a[href*='action=special'][title^='4 / 50 Schattenfragmente'])::before{content:'SF 4/50';}
+#listrow_special span:has(> a[href*='action=special'][title^='5 / 50 Schattenfragmente'])::before{content:'SF 5/50';}
+#listrow_special span:has(> a[href*='action=special'][title^='6 / 50 Schattenfragmente'])::before{content:'SF 6/50';}
+#listrow_special span:has(> a[href*='action=special'][title^='7 / 50 Schattenfragmente'])::before{content:'SF 7/50';}
+#listrow_special span:has(> a[href*='action=special'][title^='8 / 50 Schattenfragmente'])::before{content:'SF 8/50';}
+#listrow_special span:has(> a[href*='action=special'][title^='9 / 50 Schattenfragmente'])::before{content:'SF 9/50';}
+#listrow_special span:has(> a[href*='action=special'][title^='10 / 50 Schattenfragmente'])::before{content:'SF 10/50';}
+#listrow_special span:has(> a[href*='action=special'][title^='11 / 50 Schattenfragmente'])::before{content:'SF 11/50';}
+#listrow_special span:has(> a[href*='action=special'][title^='12 / 50 Schattenfragmente'])::before{content:'SF 12/50';}
+#listrow_special span:has(> a[href*='action=special'][title^='13 / 50 Schattenfragmente'])::before{content:'SF 13/50';}
+#listrow_special span:has(> a[href*='action=special'][title^='14 / 50 Schattenfragmente'])::before{content:'SF 14/50';}
+#listrow_special span:has(> a[href*='action=special'][title^='15 / 50 Schattenfragmente'])::before{content:'SF 15/50';}
+#listrow_special span:has(> a[href*='action=special'][title^='16 / 50 Schattenfragmente'])::before{content:'SF 16/50';}
+#listrow_special span:has(> a[href*='action=special'][title^='17 / 50 Schattenfragmente'])::before{content:'SF 17/50';}
+#listrow_special span:has(> a[href*='action=special'][title^='18 / 50 Schattenfragmente'])::before{content:'SF 18/50';}
+#listrow_special span:has(> a[href*='action=special'][title^='19 / 50 Schattenfragmente'])::before{content:'SF 19/50';}
+#listrow_special span:has(> a[href*='action=special'][title^='20 / 50 Schattenfragmente'])::before{content:'SF 20/50';}
+#listrow_special span:has(> a[href*='action=special'][title^='21 / 50 Schattenfragmente'])::before{content:'SF 21/50';}
+#listrow_special span:has(> a[href*='action=special'][title^='22 / 50 Schattenfragmente'])::before{content:'SF 22/50';}
+#listrow_special span:has(> a[href*='action=special'][title^='23 / 50 Schattenfragmente'])::before{content:'SF 23/50';}
+#listrow_special span:has(> a[href*='action=special'][title^='24 / 50 Schattenfragmente'])::before{content:'SF 24/50';}
+#listrow_special span:has(> a[href*='action=special'][title^='25 / 50 Schattenfragmente'])::before{content:'SF 25/50';}
+#listrow_special span:has(> a[href*='action=special'][title^='26 / 50 Schattenfragmente'])::before{content:'SF 26/50';}
+#listrow_special span:has(> a[href*='action=special'][title^='27 / 50 Schattenfragmente'])::before{content:'SF 27/50';}
+#listrow_special span:has(> a[href*='action=special'][title^='28 / 50 Schattenfragmente'])::before{content:'SF 28/50';}
+#listrow_special span:has(> a[href*='action=special'][title^='29 / 50 Schattenfragmente'])::before{content:'SF 29/50';}
+#listrow_special span:has(> a[href*='action=special'][title^='30 / 50 Schattenfragmente'])::before{content:'SF 30/50';}
+#listrow_special span:has(> a[href*='action=special'][title^='31 / 50 Schattenfragmente'])::before{content:'SF 31/50';}
+#listrow_special span:has(> a[href*='action=special'][title^='32 / 50 Schattenfragmente'])::before{content:'SF 32/50';}
+#listrow_special span:has(> a[href*='action=special'][title^='33 / 50 Schattenfragmente'])::before{content:'SF 33/50';}
+#listrow_special span:has(> a[href*='action=special'][title^='34 / 50 Schattenfragmente'])::before{content:'SF 34/50';}
+#listrow_special span:has(> a[href*='action=special'][title^='35 / 50 Schattenfragmente'])::before{content:'SF 35/50';}
+#listrow_special span:has(> a[href*='action=special'][title^='36 / 50 Schattenfragmente'])::before{content:'SF 36/50';}
+#listrow_special span:has(> a[href*='action=special'][title^='37 / 50 Schattenfragmente'])::before{content:'SF 37/50';}
+#listrow_special span:has(> a[href*='action=special'][title^='38 / 50 Schattenfragmente'])::before{content:'SF 38/50';}
+#listrow_special span:has(> a[href*='action=special'][title^='39 / 50 Schattenfragmente'])::before{content:'SF 39/50';}
+#listrow_special span:has(> a[href*='action=special'][title^='40 / 50 Schattenfragmente'])::before{content:'SF 40/50';}
+#listrow_special span:has(> a[href*='action=special'][title^='41 / 50 Schattenfragmente'])::before{content:'SF 41/50';}
+#listrow_special span:has(> a[href*='action=special'][title^='42 / 50 Schattenfragmente'])::before{content:'SF 42/50';}
+#listrow_special span:has(> a[href*='action=special'][title^='43 / 50 Schattenfragmente'])::before{content:'SF 43/50';}
+#listrow_special span:has(> a[href*='action=special'][title^='44 / 50 Schattenfragmente'])::before{content:'SF 44/50';}
+#listrow_special span:has(> a[href*='action=special'][title^='45 / 50 Schattenfragmente'])::before{content:'SF 45/50';}
+#listrow_special span:has(> a[href*='action=special'][title^='46 / 50 Schattenfragmente'])::before{content:'SF 46/50';}
+#listrow_special span:has(> a[href*='action=special'][title^='47 / 50 Schattenfragmente'])::before{content:'SF 47/50';}
+#listrow_special span:has(> a[href*='action=special'][title^='48 / 50 Schattenfragmente'])::before{content:'SF 48/50';}
+#listrow_special span:has(> a[href*='action=special'][title^='49 / 50 Schattenfragmente'])::before{content:'SF 49/50';}
+#listrow_special span:has(> a[href*='action=special'][title^='50 / 50 Schattenfragmente'])::before{content:'SF 50/50';}
