@@ -2,7 +2,7 @@
 
 /* =======================================================================
    saveumg.css -- Terrain/environment SVG overlays on map tiles
-   Updated: 2026-11-14T19:22:56Z
+   Updated: 2026-11-14T20:24:32Z
    Loaded via @import from style.css
    GENERATED -- do not edit SVG groups by hand.
    To update angelstellen: trigger a push from fwcalc.
@@ -71,9 +71,9 @@
     content: url(../umgs/U_a.svg); z-index:1; width:50px; position:absolute; margin-left:0; background:0;
 }
 
-/* U_fw.svg -- 9 Felder */
-#mapx-799y-282 a:before,#mapx-322y-851 a:before,#mapx71y136 a:before,#mapx82y137 a:before,#mapx105y92 a:before,#mapx115y135 a:before,#mapx133y117 a:before,#mapx135y117 a:before,
-#mapx139y114 a:before {
+/* U_fw.svg -- 10 Felder */
+#mapx-799y-282 a:before,#mapx-322y-851 a:before,#mapx71y136 a:before,#mapx72y136 a:before,#mapx82y137 a:before,#mapx105y92 a:before,#mapx115y135 a:before,#mapx133y117 a:before,
+#mapx135y117 a:before,#mapx139y114 a:before {
     content: url(../umgs/U_fw.svg); z-index:1; width:50px; position:absolute; margin-left:0; background:0;
 }
 
