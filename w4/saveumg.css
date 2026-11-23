@@ -2,7 +2,7 @@
 
 /* =======================================================================
    saveumg.css -- Terrain/environment SVG overlays on map tiles
-   Updated: 2026-11-23T08:17:51Z
+   Updated: 2026-11-23T09:18:31Z
    Loaded via @import from style.css
    GENERATED -- do not edit SVG groups by hand.
    To update angelstellen: trigger a push from fwcalc.
@@ -26,7 +26,7 @@
     content: url(../umgs/U_f.svg); z-index:1; width:50px; position:absolute; margin-left:0; background:0;
 }
 
-/* U_w.svg -- 155 Felder */
+/* U_w.svg -- 156 Felder */
 #mapx-49003y-49003 a:before,#mapx-19997y-20093 a:before,#mapx-429y-292 a:before,#mapx-426y-298 a:before,#mapx-425y-294 a:before,#mapx-322y-852 a:before,#mapx-321y-853 a:before,#mapx-321y-852 a:before,
 #mapx-320y-852 a:before,#mapx-319y-854 a:before,#mapx-319y-852 a:before,#mapx-318y-851 a:before,#mapx-259y-257 a:before,#mapx-257y-256 a:before,#mapx-231y-368 a:before,#mapx-230y-369 a:before,
 #mapx-230y-367 a:before,#mapx-230y-366 a:before,#mapx-229y-369 a:before,#mapx-229y-368 a:before,#mapx-228y-368 a:before,#mapx-228y-366 a:before,#mapx-227y-368 a:before,#mapx-227y-367 a:before,
@@ -45,8 +45,8 @@
 #mapx139y123 a:before,#mapx139y128 a:before,#mapx140y128 a:before,#mapx146y122 a:before,#mapx147y122 a:before,#mapx149y122 a:before,#mapx150y121 a:before,#mapx152y120 a:before,
 #mapx153y119 a:before,#mapx182y137 a:before,#mapx182y138 a:before,#mapx185y140 a:before,#mapx187y139 a:before,#mapx188y139 a:before,#mapx189y134 a:before,#mapx190y135 a:before,
 #mapx191y136 a:before,#mapx192y136 a:before,#mapx193y136 a:before,#mapx195y136 a:before,#mapx196y136 a:before,#mapx198y129 a:before,#mapx198y136 a:before,#mapx199y133 a:before,
-#mapx201y133 a:before,#mapx203y134 a:before,#mapx205y134 a:before,#mapx1006y1000 a:before,#mapx1008y979 a:before,#mapx1008y998 a:before,#mapx1010y994 a:before,#mapx1011y985 a:before,
-#mapx1011y990 a:before,#mapx1011y996 a:before,#mapx1012y988 a:before {
+#mapx201y133 a:before,#mapx203y134 a:before,#mapx205y134 a:before,#mapx1006y1000 a:before,#mapx1008y979 a:before,#mapx1008y998 a:before,#mapx1009y979 a:before,#mapx1010y994 a:before,
+#mapx1011y985 a:before,#mapx1011y990 a:before,#mapx1011y996 a:before,#mapx1012y988 a:before {
     content: url(../umgs/U_w.svg); z-index:1; width:50px; position:absolute; margin-left:0; background:0;
 }
 
@@ -695,9 +695,8 @@
     content: url(../umgs/U_fnw_npc.svg); z-index:1; width:50px; position:absolute; margin-left:0; background:0;
 }
 
-/* U_nw_npc.svg -- 9 Felder */
-#mapx1005y979 a:before,#mapx1006y979 a:before,#mapx1007y979 a:before,#mapx1009y979 a:before,#mapx1009y992 a:before,#mapx1010y978 a:before,#mapx1010y979 a:before,#mapx1010y983 a:before,
-#mapx1012y981 a:before {
+/* U_nw_npc.svg -- 8 Felder */
+#mapx1005y979 a:before,#mapx1006y979 a:before,#mapx1007y979 a:before,#mapx1009y992 a:before,#mapx1010y978 a:before,#mapx1010y979 a:before,#mapx1010y983 a:before,#mapx1012y981 a:before {
     content: url(../umgs/U_nw_npc.svg); z-index:1; width:50px; position:absolute; margin-left:0; background:0;
 }
 
